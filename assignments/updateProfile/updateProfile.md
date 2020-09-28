@@ -10,62 +10,62 @@ Below is a list of notification adjustments:
 
 - Changed to or confirmed immediate notification:
 
-○ Due date
+	○ Due date
 
-○ Course content
+	○ Course content
 
-○ Announcement
+	○ Announcement
 
-○ Grading
+	○ Grading
 
-§ Including score
+		§ Including score
 
-○ Invitation
+	○ Invitation
 
-○ Added to conversation
+	○ Added to conversation
 
-○ Conversation message
+	○ Conversation message
 
-○ Appointment signups
+	○ Appointment signups
 
-○ Appointment cancellations
+	○ Appointment cancellations
 
-○ Appointment availability
+	○ Appointment availability
 
-○ Recording ready
+	○ Recording ready
 
-○ Global announcements
+	○ Global announcements
 
 - Turned off or confirmed turned off
 
-○ Calendar
+	○ Calendar
 
-○ Student Appointment signups
+	○ Student Appointment signups
 
-○ Conversations created by me
+	○ Conversations created by me
 
-○ Announcements created by me
+	○ Announcements created by me
 
-○ Files
+	○ Files
 
 - Changed to or confirmed daily summary
 
-○ Submission comment
+	○ Submission comment
 
-○ Blueprint sync
+	○ Blueprint sync
 
-○ Discussion
+	○ Discussion
 
-○ Discussion post
+	○ Discussion post
 
-○ Membership update
+	○ Membership update
 
-○ Administrative notifications
+	○ Administrative notifications
 
-○ Content link error
+	○ Content link error
 
 - Changed to or confirmed weekly notification summary
 
-○ Grading policies
+	○ Grading policies
 
 - Set push notifications as desired
