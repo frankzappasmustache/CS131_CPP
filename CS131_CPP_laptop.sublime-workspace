@@ -1,0 +1,259 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"sublimerepl",
+				"SublimeLinter: Reload SublimeLinter and its Plugins"
+			],
+			[
+				"pac",
+				"Preferences: Package Control Settings – Default"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"py",
+				"Pretty Print: Format (Pretty Print) Python code"
+			],
+			[
+				"cach",
+				"requirements.txt: Clear Cache"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Enable Package"
+			],
+			[
+				"packag",
+				"Package Control: Install Local Dependency"
+			],
+			[
+				"python",
+				"Pretty Print: Format (Pretty Print) Python code"
+			],
+			[
+				"package",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 329.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/frankzappasmustache/code/courses/CS131_CPP",
+		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments",
+		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/multiplier"
+	],
+	"file_history":
+	[
+		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/multiplier/multiplier.cpp",
+		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/updateProfile/updateProfile.md",
+		"/home/frankzappasmustache/.config/sublime-text-3/Packages/Package Syncing/Package Syncing.sublime-settings",
+		"/home/frankzappasmustache/code/courses/IT121_Python/assignments/multiplier/multiplier.py",
+		"/home/frankzappasmustache/code/school/python/hello.py",
+		"/home/frankzappasmustache/Documents/Courses/CS 131 - Introduction to Computer Science C++/canvas_biography.txt",
+		"/home/frankzappasmustache/.config/sublime-text-3/Packages/User/Package Control.sublime-settings",
+		"/home/frankzappasmustache/.config/sublime-text-3/Packages/Package Control/Package Control.sublime-settings",
+		"/home/frankzappasmustache/.config/sublime-text-3/Packages/User/SublimeLinter.sublime-settings",
+		"/home/frankzappasmustache/.config/sublime-text-3/Packages/pyyaml/st3/yaml/__init__.py",
+		"/home/frankzappasmustache/.config/sublime-text-3/Packages/sublime_lib/.flake8",
+		"/home/frankzappasmustache/.config/sublime-text-3/Packages/Pylinter/Pylinter.sublime-settings",
+		"/home/frankzappasmustache/.config/sublime-text-3/Packages/Pylinter/pylinter.py",
+		"/home/frankzappasmustache/.config/sublime-text-3/Packages/User/Python.sublime-settings",
+		"/home/frankzappasmustache/.config/sublime-text-3/Packages/User/Pylinter.sublime-settings",
+		"/home/frankzappasmustache/pylint.rc",
+		"/run/media/frankzappasmustache/21807644-010e-4d09-a038-50d24f15673d/debian_backup/pubring.kbx",
+		"/run/media/frankzappasmustache/21807644-010e-4d09-a038-50d24f15673d/debian_backup/.Xdefaults",
+		"/run/media/frankzappasmustache/21807644-010e-4d09-a038-50d24f15673d/debian_backup/.profile",
+		"/run/media/frankzappasmustache/21807644-010e-4d09-a038-50d24f15673d/debian_backup/.lessfilter",
+		"/home/frankzappasmustache/.imwheelrc",
+		"/home/frankzappasmustache/.lessfilter",
+		"/run/media/frankzappasmustache/21807644-010e-4d09-a038-50d24f15673d/debian_backup/.netrc",
+		"/run/media/frankzappasmustache/21807644-010e-4d09-a038-50d24f15673d/debian_backup/.gitconfig",
+		"/run/media/frankzappasmustache/21807644-010e-4d09-a038-50d24f15673d/debian_backup/.dmrc",
+		"/home/frankzappasmustache/.bash_profile",
+		"/home/frankzappasmustache/.bashrc",
+		"/home/frankzappasmustache/.gtkrc-2.0",
+		"/run/media/frankzappasmustache/21807644-010e-4d09-a038-50d24f15673d/debian_backup/.bashrc",
+		"/home/frankzappasmustache/.dircolors"
+	],
+	"find":
+	{
+		"height": 27.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"'"
+		],
+		"highlight": true,
+		"in_selection": true,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": false
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 51.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.SublimeLinter":
+	{
+		"height": 0.0
+	},
+	"output.SublimeLinter Messages":
+	{
+		"height": 253.0
+	},
+	"output.exec":
+	{
+		"height": 265.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.help":
+	{
+		"height": 144.0
+	},
+	"pinned_build_system": "Packages/Python 3/Python3.sublime-build",
+	"project": "CS131_CPP_laptop.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 177.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+		"max_columns": 1
+	}
+}
