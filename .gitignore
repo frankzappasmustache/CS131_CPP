@@ -1,11 +1,6 @@
 ﻿################################################################################
 # This .gitignore file was automatically created by Microsoft(R) Visual Studio.
 ################################################################################
-
-/.vs/slnx.sqlite
-/.vs/ProjectSettings.json
-/.vs/CS131_CPP/v16/.suo
-/.vs/VSWorkspaceState.json
-CS131_CPP/CMakeLists.txt
-CS131_CPP/cmake-build-debug/.*
-CS131_CPP/.idea/.*
+CMakeLists.txt
+cmake-build-debug/
+.idea/
