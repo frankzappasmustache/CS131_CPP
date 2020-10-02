@@ -7,15 +7,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": ".gitignore",
-			"settings":
-			{
-				"buffer_size": 352,
-				"encoding": "UTF-8 with BOM",
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "Packages/C++ & C Single File Builder - Minghang Yang/C++ Builder-Minghang Yang.sublime-build",
 	"build_system_choices":
@@ -141,14 +132,13 @@
 	},
 	"expanded_folders":
 	[
-		"/home/frankzappasmustache/code/courses/CS131_CPP"
 	],
 	"file_history":
 	[
+		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/multiplier/arithmetic.cpp",
+		"/home/frankzappasmustache/code/courses/CS131_CPP/.gitignore",
 		"/home/frankzappasmustache/code/courses/CS131_CPP/cmake-build-debug/.gitignore",
 		"/home/frankzappasmustache/code/courses/CS131_CPP/.idea/.gitignore",
-		"/home/frankzappasmustache/code/courses/CS131_CPP/.gitignore",
-		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/multiplier/arithmetic.cpp",
 		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/multiplier/multiplier.cpp",
 		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/updateProfile/updateProfile.md",
 		"/home/frankzappasmustache/.config/sublime-text-3/Packages/Package Syncing/Package Syncing.sublime-settings",
@@ -226,38 +216,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": ".gitignore",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 352,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								337,
-								337
-							]
-						],
-						"settings":
-						{
-							"git_gutter_is_enabled": true,
-							"syntax": "Packages/Theme - Monokai+/icons/Langs/Git.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		},
 		{
