@@ -8,11 +8,63 @@
 	"buffers":
 	[
 	],
-	"build_system": "",
+	"build_system": "Packages/C++ & C Single File Builder - Minghang Yang/C++ Builder-Minghang Yang.sublime-build",
 	"build_system_choices":
 	[
+		[
+			[
+				[
+					"Packages/C++ & C Single File Builder - Minghang Yang/C++ Builder-Minghang Yang.sublime-build",
+					""
+				],
+				[
+					"Packages/C++ & C Single File Builder - Minghang Yang/C++ Builder-Minghang Yang.sublime-build",
+					"Run"
+				],
+				[
+					"Packages/C++ & C Single File Builder - Minghang Yang/C++ Builder-Minghang Yang.sublime-build",
+					"Build and Run"
+				]
+			],
+			[
+				"Packages/C++ & C Single File Builder - Minghang Yang/C++ Builder-Minghang Yang.sublime-build",
+				"Build and Run"
+			]
+		],
+		[
+			[
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					""
+				],
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					"Run"
+				]
+			],
+			[
+				"Packages/C++/C++ Single File.sublime-build",
+				"Run"
+			]
+		],
+		[
+			[
+				[
+					"Packages/C++11/C++11.sublime-build",
+					""
+				],
+				[
+					"Packages/C++11/C++11.sublime-build",
+					"Run"
+				]
+			],
+			[
+				"Packages/C++11/C++11.sublime-build",
+				"Run"
+			]
+		]
 	],
-	"build_varint": "",
+	"build_varint": "Build and Run",
 	"command_palette":
 	{
 		"height": 0.0,
@@ -86,6 +138,7 @@
 	],
 	"file_history":
 	[
+		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/multiplier/arithmetic.cpp",
 		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/multiplier/multiplier.cpp",
 		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/updateProfile/updateProfile.md",
 		"/home/frankzappasmustache/.config/sublime-text-3/Packages/Package Syncing/Package Syncing.sublime-settings",
@@ -119,7 +172,7 @@
 	],
 	"find":
 	{
-		"height": 27.0
+		"height": 52.0
 	},
 	"find_in_files":
 	{
@@ -133,14 +186,25 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"std::",
+			"integerUno",
+			"integerDos",
+			"integerUno",
+			"sum",
+			"integerTwo",
 			"'"
 		],
 		"highlight": true,
-		"in_selection": true,
+		"in_selection": false,
 		"preserve_case": false,
 		"regex": true,
 		"replace_history":
 		[
+			"",
+			"numeroUno",
+			"numeroDos",
+			"numeroUno",
+			"integerDos",
 			""
 		],
 		"reverse": false,
@@ -151,6 +215,11 @@
 	},
 	"groups":
 	[
+		{
+			"sheets":
+			[
+			]
+		},
 		{
 			"sheets":
 			[
@@ -174,11 +243,18 @@
 				0,
 				1,
 				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
 			]
 		],
 		"cols":
 		[
 			0.0,
+			0.616817369374,
 			1.0
 		],
 		"rows":
@@ -208,11 +284,11 @@
 	{
 		"height": 144.0
 	},
-	"pinned_build_system": "Packages/Python 3/Python3.sublime-build",
+	"pinned_build_system": "Packages/C++ & C Single File Builder - Minghang Yang/C++ Builder-Minghang Yang.sublime-build",
 	"project": "CS131_CPP_laptop.sublime-project",
 	"replace":
 	{
-		"height": 50.0
+		"height": 92.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -250,7 +326,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 177.0,
+	"side_bar_width": 394.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
