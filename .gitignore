@@ -6,6 +6,4 @@
 /.vs/ProjectSettings.json
 /.vs/CS131_CPP/v16/.suo
 /.vs/VSWorkspaceState.json
-~/code/courses/CS131_CPP/.idea/*
-~/code/courses/CS131_CPP/cmake-build-debug/*
-~/code/courses/CS131_CPP/CMakeLists.txt
+CMakeLists.txt
