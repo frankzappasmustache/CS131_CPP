@@ -3,7 +3,7 @@
     Sub-project: Labs
     File Name: arithmetic.cpp
     Author: Dustin McClure
-    Lab: Lab 1 Programming Excercises
+    Lab: Lab 1 Programming Excercise 2
     Modified Date: 10/02/2020
 
     A program that ask the user to input two numbers (integers),
@@ -11,17 +11,14 @@
     sum of those numbers, printing them to cout.
  //*/
 #include <iostream>
-#include <math.h>
-void loop()
-{
-  isnan(1);
-}
 using namespace std;
 
+// function main begins program execution
 int main()
 {
-  // Takes two numbers as input, validates that input,
-  // and outputs the quotient, product, difference and sum.
+  // Takes two numbers as input, validates inputs are
+  // proper integers, and outputs the quotient, product,
+  // difference and sum.
 
   // Declarations
   int numeroUno{0};      // Integer one
@@ -31,13 +28,13 @@ int main()
   int producto{0};       // Product of Integer one and Integer two
   int cotiente{0};       // Quotient of Integer one and Integer two
 
-  // Get input for first number from the user
-  NUMBER_ONE: cout << "Enter any number: ";
+  NUMBER_ONE: cout << "Enter any number: "; // Set label and get input for number one from user
 
-  // Validate user input for first number and return them to prompt if not a number.
+  // Read integer one into variable from input, validate user
+  // input, and return them to label if not a valid number.
   while(!(cin >> numeroUno))
   {
-    cout << "You entered an imaginary number or character. Please enter a positive number.\n";
+    cout << "Your input is invalid. Please enter a real number.\n";
 
     cin.clear();
 
@@ -46,13 +43,13 @@ int main()
     goto NUMBER_ONE;
   }
 
-  // Get input for first number from the user
-  NUMBER_TWO: cout << "Enter another number: ";
+  NUMBER_TWO: cout << "Enter another number: "; // Set label and get input for number two from user
 
-  // Validate user input for second number and return them to prompt if not a number.
+  // Read integer two into variable from input, validate user
+  // input, and return them to label if not a valid number.
   while(!(cin >> numeroDos))
   {
-    cout << "You entered an imaginary number or character. Please enter a positive number.\n";
+    cout << "Your input is invalid. Please enter a real number.\n";
 
     cin.clear();
 

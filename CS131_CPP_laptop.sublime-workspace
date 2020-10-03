@@ -133,10 +133,13 @@
 	"expanded_folders":
 	[
 		"/home/frankzappasmustache/code/courses/CS131_CPP",
-		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments"
+		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments",
+		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/arithmetic"
 	],
 	"file_history":
 	[
+		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/arithmetic/arithmetic.cpp",
+		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/arithmetic/circleGeometry.cpp",
 		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/multiplier/arithmetic.cpp",
 		"/home/frankzappasmustache/code/courses/CS131_CPP/.gitignore",
 		"/home/frankzappasmustache/code/courses/CS131_CPP/cmake-build-debug/.gitignore",
@@ -256,7 +259,7 @@
 		"cols":
 		[
 			0.0,
-			0.83270363922,
+			0.57123286954,
 			1.0
 		],
 		"rows":
@@ -285,6 +288,10 @@
 	"output.help":
 	{
 		"height": 144.0
+	},
+	"output.mdpopups":
+	{
+		"height": 0.0
 	},
 	"pinned_build_system": "Packages/C++ & C Single File Builder - Minghang Yang/C++ Builder-Minghang Yang.sublime-build",
 	"project": "CS131_CPP_laptop.sublime-project",
@@ -320,7 +327,7 @@
 		],
 		"width": 0.0
 	},
-	"selected_group": 0,
+	"selected_group": 1,
 	"settings":
 	{
 	},
