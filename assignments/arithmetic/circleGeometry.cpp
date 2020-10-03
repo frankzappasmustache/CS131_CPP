@@ -33,11 +33,8 @@ int main()
       while(!(cin >> radius))
       {
             cout << "Your input is invalid. The radius must be entered as a real number.\n";
-
             cin.clear();
-
             cin.ignore(30, '\n');
-
             goto RADIUS;
       }
 

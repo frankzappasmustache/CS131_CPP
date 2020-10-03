@@ -36,11 +36,8 @@ int main()
       while(!(cin >> numeroUno))
       {
             cout << "Your input is invalid. Please enter a real number.\n";
-
             cin.clear();
-
             cin.ignore(30, '\n');
-
             goto NUMBER_ONE;
       }
 
@@ -51,11 +48,8 @@ int main()
       while(!(cin >> numeroDos))
       {
             cout << "Your input is invalid. Please enter a real number.\n";
-
             cin.clear();
-
             cin.ignore(30, '\n');
-
             goto NUMBER_TWO;
       }
 
