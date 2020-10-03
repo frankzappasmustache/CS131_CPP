@@ -17,34 +17,34 @@ using namespace std;
 int main()
 {
 
-  // Takes the radius of a cirle as input, validates that the input is
-  // a proper integer, and outputs the diameter, circumfrence, and
-  // area of the circle.
+      // Takes the radius of a cirle as input, validates that the input is
+      // a proper integer, and outputs the diameter, circumfrence, and
+      // area of the circle.
 
-  //declarations
-  const double PI=3.14159; // Declare PI as a double-floating point constant
-  int radius{0};          // Declare radius as integer initialized to zero
+      //declarations
+      const double PI=3.14159; // Declare PI as a double-floating point constant
+      int radius{0};          // Declare radius as integer initialized to zero
 
-  // Set label for cout and get radius input from user
-  RADIUS: cout << "Enter the radius of your circle: ";
+      // Set label for cout and get radius input from user
+      RADIUS: cout << "Enter the radius of your circle: ";
 
-  // Validate user radius input, tell them input is invalid, and
-  // return them to radius label if not valid
-  while(!(cin >> radius))
-  {
-    cout << "Your input is invalid. The radius must be entered as a real number.\n";
+      // Validate user radius input, tell them input is invalid, and
+      // return them to radius label if not valid
+      while(!(cin >> radius))
+      {
+            cout << "Your input is invalid. The radius must be entered as a real number.\n";
 
-    cin.clear();
+            cin.clear();
 
-    cin.ignore(30, '\n');
+            cin.ignore(30, '\n');
 
-    goto RADIUS;
-  }
+            goto RADIUS;
+      }
 
-  //  Calculate diameter, circumfrence, and area; printing the result.
-  cout << "The Diameter of your circle is " << radius * 2 << "." << endl;
-  cout << "The Circumference of your circle is " <<  2 * PI * radius << "." << endl;
-  cout << "The Area of your circle is " << PI * radius * radius << "." << endl;
+      //  Calculate diameter, circumfrence, and area; printing the result.
+      cout << "The Diameter of your circle is " << radius * 2 << "." << endl;
+      cout << "The Circumference of your circle is " <<  2 * PI * radius << "." << endl;
+      cout << "The Area of your circle is " << PI * radius * radius << "." << endl;
 
-  return 0;
- }
+      return 0;
+}
