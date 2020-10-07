@@ -7,6 +7,14 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "assignments/arithmetic/arithmetic.cpp",
+			"settings":
+			{
+				"buffer_size": 2587,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "Packages/C++ & C Single File Builder - Minghang Yang/C++ Builder-Minghang Yang.sublime-build",
 	"build_system_choices":
@@ -134,18 +142,20 @@
 	[
 		"/home/frankzappasmustache/code/courses/CS131_CPP",
 		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments",
-		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/arithmetic"
+		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/arithmetic",
+		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/updateProfile"
 	],
 	"file_history":
 	[
-		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/arithmetic/arithmetic.cpp",
 		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/arithmetic/circleGeometry.cpp",
+		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/arithmetic/arithmetic.cpp",
+		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/updateProfile/updateProfile.md",
+		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/arithmetic/arithmetic.md",
 		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/multiplier/arithmetic.cpp",
 		"/home/frankzappasmustache/code/courses/CS131_CPP/.gitignore",
 		"/home/frankzappasmustache/code/courses/CS131_CPP/cmake-build-debug/.gitignore",
 		"/home/frankzappasmustache/code/courses/CS131_CPP/.idea/.gitignore",
 		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/multiplier/multiplier.cpp",
-		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/updateProfile/updateProfile.md",
 		"/home/frankzappasmustache/.config/sublime-text-3/Packages/Package Syncing/Package Syncing.sublime-settings",
 		"/home/frankzappasmustache/code/courses/IT121_Python/assignments/multiplier/multiplier.py",
 		"/home/frankzappasmustache/code/school/python/hello.py",
@@ -221,8 +231,40 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "assignments/arithmetic/arithmetic.cpp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2587,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3,
+								3
+							]
+						],
+						"settings":
+						{
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/C++11/C++11.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		},
 		{
@@ -259,7 +301,7 @@
 		"cols":
 		[
 			0.0,
-			0.57123286954,
+			0.673602959365,
 			1.0
 		],
 		"rows":
@@ -327,7 +369,7 @@
 		],
 		"width": 0.0
 	},
-	"selected_group": 1,
+	"selected_group": 0,
 	"settings":
 	{
 	},
@@ -335,7 +377,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 394.0,
+	"side_bar_width": 245.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
