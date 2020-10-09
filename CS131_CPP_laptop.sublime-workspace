@@ -7,14 +7,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "assignments/arithmetic/arithmetic.cpp",
-			"settings":
-			{
-				"buffer_size": 2587,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "Packages/C++ & C Single File Builder - Minghang Yang/C++ Builder-Minghang Yang.sublime-build",
 	"build_system_choices":
@@ -140,13 +132,17 @@
 	},
 	"expanded_folders":
 	[
-		"/home/frankzappasmustache/code/courses/CS131_CPP",
-		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments",
-		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/arithmetic",
-		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/updateProfile"
+		"/home/frankzappasmustache/code/CS131_CPP",
+		"/home/frankzappasmustache/code/CS131_CPP/assignments"
 	],
 	"file_history":
 	[
+		"/home/frankzappasmustache/.config/monitors.xml",
+		"/home/frankzappasmustache/.config/xfce4/xfconf/xfce-perchannel-xml/displays.xml",
+		"/home/frankzappasmustache/.config/xfce4/helpers.rc",
+		"/home/frankzappasmustache/.config/xfce4/panel/launcher-35/16021038434.desktop",
+		"/etc/X11/xorg.conf.d/00-keyboard.conf",
+		"/home/frankzappasmustache/code/CS131_CPP/assignments/arithmetic/arithmetic.cpp",
 		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/arithmetic/circleGeometry.cpp",
 		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/arithmetic/arithmetic.cpp",
 		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/updateProfile/updateProfile.md",
@@ -187,7 +183,7 @@
 	],
 	"find":
 	{
-		"height": 52.0
+		"height": 24.0
 	},
 	"find_in_files":
 	{
@@ -231,40 +227,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "assignments/arithmetic/arithmetic.cpp",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2587,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								3,
-								3
-							]
-						],
-						"settings":
-						{
-							"git_gutter_is_enabled": true,
-							"syntax": "Packages/C++11/C++11.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		},
 		{
@@ -275,7 +239,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 27.0
+		"height": 24.0
 	},
 	"input":
 	{
@@ -339,7 +303,7 @@
 	"project": "CS131_CPP_laptop.sublime-project",
 	"replace":
 	{
-		"height": 92.0
+		"height": 44.0
 	},
 	"save_all_on_build": true,
 	"select_file":
