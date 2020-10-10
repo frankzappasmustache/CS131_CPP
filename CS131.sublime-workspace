@@ -1,0 +1,224 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"high",
+				"SublimeLinter: Toggle Highlights"
+			],
+			[
+				"git",
+				"Git: Show Tags"
+			],
+			[
+				"python",
+				"Anaconda: Set Python interpreter"
+			],
+			[
+				"lint",
+				"SublimeLinter: Toggle Highlights"
+			],
+			[
+				"pac",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 291.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/frankzappasmustache/code/CS131_CPP"
+	],
+	"file_history":
+	[
+		"/home/frankzappasmustache/code/CS131_CPP/CS131.sublime-project",
+		"/home/frankzappasmustache/code/IT121_Python/assignments/helloWorld/helloWorld.py",
+		"/home/frankzappasmustache/code/IT121_Python/assignments/helloWorld/helloWorld.md",
+		"/home/frankzappasmustache/.config/sublime-text-3/Packages/Git/Git.sublime-settings",
+		"/home/frankzappasmustache/code/my_dotfiles/pylint.rc",
+		"/home/frankzappasmustache/pylint.rc",
+		"/home/frankzappasmustache/code/my_dotfiles/.profile",
+		"/home/frankzappasmustache/.profile",
+		"/home/frankzappasmustache/code/my_dotfiles/.npmrc",
+		"/home/frankzappasmustache/.npmrc",
+		"/home/frankzappasmustache/.lessfilter",
+		"/home/frankzappasmustache/code/my_dotfiles/.lessfilter",
+		"/home/frankzappasmustache/code/my_dotfiles/.dircolors",
+		"/home/frankzappasmustache/.dircolors",
+		"/home/frankzappasmustache/.bash_profile",
+		"/home/frankzappasmustache/.gitconfig",
+		"/home/frankzappasmustache/code/my_dotfiles/.gitconfig",
+		"/home/frankzappasmustache/code/my_dotfiles/.bash_profile",
+		"/home/frankzappasmustache/.bashrc",
+		"/home/frankzappasmustache/code/my_dotfiles/.bashrc"
+	],
+	"find":
+	{
+		"height": 66.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 46.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.SublimeLinter":
+	{
+		"height": 0.0
+	},
+	"output.exec":
+	{
+		"height": 126.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.mdpopups":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Anaconda Python Builder",
+	"project": "CS131.sublime-project",
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 183.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
