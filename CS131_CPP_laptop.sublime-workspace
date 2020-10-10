@@ -7,14 +7,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "assignments/arithmetic/arithmetic.cpp",
-			"settings":
-			{
-				"buffer_size": 2587,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "Packages/C++ & C Single File Builder - Minghang Yang/C++ Builder-Minghang Yang.sublime-build",
 	"build_system_choices":
@@ -142,13 +134,15 @@
 	[
 		"/home/frankzappasmustache/code/courses/CS131_CPP",
 		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments",
-		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/arithmetic",
-		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/updateProfile"
+		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_3_heartRate",
+		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_3_invoice"
 	],
 	"file_history":
 	[
-		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/arithmetic/circleGeometry.cpp",
+		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_3_heartRate/heartRate.md",
+		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_3_invoice/invoice.md",
 		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/arithmetic/arithmetic.cpp",
+		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/arithmetic/circleGeometry.cpp",
 		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/updateProfile/updateProfile.md",
 		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/arithmetic/arithmetic.md",
 		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/multiplier/arithmetic.cpp",
@@ -231,40 +225,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "assignments/arithmetic/arithmetic.cpp",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2587,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								3,
-								3
-							]
-						],
-						"settings":
-						{
-							"git_gutter_is_enabled": true,
-							"syntax": "Packages/C++11/C++11.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		},
 		{
@@ -301,7 +263,7 @@
 		"cols":
 		[
 			0.0,
-			0.673602959365,
+			0.464225663714,
 			1.0
 		],
 		"rows":
