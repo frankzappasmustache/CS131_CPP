@@ -132,40 +132,31 @@
 	},
 	"expanded_folders":
 	[
+<<<<<<< HEAD
 		"/home/frankzappasmustache/code/courses/CS131_CPP",
 		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments",
-		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/arithmetic",
 		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_3_heartRate",
-		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_3_invoice",
-		"/home/frankzappasmustache/code/courses"
+		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_3_invoice"
 	],
 	"file_history":
 	[
-		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_3_invoice/invoice.md",
-		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/arithmetic/arithmetic.cpp",
-		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_3_invoice/Invoice.cpp",
-		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_3_heartRate/HeartRates.cpp",
-		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_3_heartRate/HeartRates.h",
-		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_3_invoice/invoice.h",
-		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_3_invoice/invoice.cpp",
-		"/home/frankzappasmustache/code/courses/Lab3CPP_Example4.h",
-		"/home/frankzappasmustache/code/courses/Lab3CPP_Example4.cpp",
-		"/home/frankzappasmustache/code/courses/Lab3CPP_Example3.cpp",
-		"/home/frankzappasmustache/code/courses/Lab3CPP_Example3.h",
-		"/home/frankzappasmustache/code/courses/Lab3CPP_Example1.cpp",
-		"/home/frankzappasmustache/code/courses/Lab3CPP_Example2.cpp",
-		"/home/frankzappasmustache/code/courses/Lab3CPP_Example2.h",
-		"/home/frankzappasmustache/code/courses/Lab3CPP_Example2_Driver.cpp",
-		"/home/frankzappasmustache/code/courses/Lab3CPP_Example2_Driver.h",
 		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_3_heartRate/heartRate.md",
-		"/home/frankzappasmustache/code/courses/CS131_CPP/CS131_CPP_laptop.sublime-workspace.orig",
-		"/home/frankzappasmustache/code/courses/CS131_CPP/CS131_CPP_laptop.sublime-workspace",
-		"/home/frankzappasmustache/code/courses/CS131_CPP/CS131_CPP_laptop_BACKUP_4961.sublime-workspace",
-		"/home/frankzappasmustache/code/courses/CS131_CPP/CS131_CPP_laptop_BASE_4961.sublime-workspace",
-		"/home/frankzappasmustache/code/courses/CS131_CPP/CS131_CPP_laptop_LOCAL_4961.sublime-workspace",
-		"/home/frankzappasmustache/code/courses/CS131_CPP/CS131_CPP_laptop_REMOTE_4961.sublime-workspace",
-		"/home/frankzappasmustache/code/courses/CS131_CPP/CS131_CPP_laptop.sublime-project",
-		"/home/frankzappasmustache/Programs/alienfx_aw13r3/README.md",
+		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_3_invoice/invoice.md",
+=======
+		"/home/frankzappasmustache/code/CS131_CPP",
+		"/home/frankzappasmustache/code/CS131_CPP/assignments"
+	],
+	"file_history":
+	[
+		"/home/frankzappasmustache/.config/monitors.xml",
+		"/home/frankzappasmustache/.config/xfce4/xfconf/xfce-perchannel-xml/displays.xml",
+		"/home/frankzappasmustache/.config/xfce4/helpers.rc",
+		"/home/frankzappasmustache/.config/xfce4/panel/launcher-35/16021038434.desktop",
+		"/etc/X11/xorg.conf.d/00-keyboard.conf",
+		"/home/frankzappasmustache/code/CS131_CPP/assignments/arithmetic/arithmetic.cpp",
+		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/arithmetic/circleGeometry.cpp",
+>>>>>>> a7d5bf01ce9d10decdb8e7fcce60c117447c3985
+		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/arithmetic/arithmetic.cpp",
 		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/arithmetic/circleGeometry.cpp",
 		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/updateProfile/updateProfile.md",
 		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/arithmetic/arithmetic.md",
@@ -205,7 +196,7 @@
 	],
 	"find":
 	{
-		"height": 27.0
+		"height": 24.0
 	},
 	"find_in_files":
 	{
@@ -261,7 +252,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 27.0
+		"height": 24.0
 	},
 	"input":
 	{
@@ -325,7 +316,7 @@
 	"project": "CS131_CPP_laptop.sublime-project",
 	"replace":
 	{
-		"height": 50.0
+		"height": 44.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -355,7 +346,7 @@
 		],
 		"width": 0.0
 	},
-	"selected_group": 1,
+	"selected_group": 0,
 	"settings":
 	{
 	},
