@@ -64,7 +64,7 @@
 			]
 		]
 	],
-	"build_varint": "",
+	"build_varint": "Build and Run",
 	"command_palette":
 	{
 		"height": 0.0,
@@ -72,16 +72,28 @@
 		"selected_items":
 		[
 			[
+				"cla",
+				"Clang Format: Format Selection"
+			],
+			[
+				"clang",
+				"Clang Format: Format Selection"
+			],
+			[
+				"pac",
+				"Package Control: Install Package"
+			],
+			[
 				"packa",
 				"Package Control: Install Package"
 			],
 			[
-				"sublimerepl",
-				"SublimeLinter: Reload SublimeLinter and its Plugins"
+				"markdown",
+				"Markdown Preview: Preview in Browser"
 			],
 			[
-				"pac",
-				"Preferences: Package Control Settings – Default"
+				"sublimerepl",
+				"SublimeLinter: Reload SublimeLinter and its Plugins"
 			],
 			[
 				"pack",
@@ -133,27 +145,36 @@
 	"expanded_folders":
 	[
 		"/home/frankzappasmustache/code/courses",
-		"/home/frankzappasmustache/code/courses/CS131_CPP"
+		"/home/frankzappasmustache/code/courses/CS131_CPP",
+		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments",
+		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_3_heartRate",
+		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_3_invoice"
 	],
 	"file_history":
 	[
-		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_3_invoice/invoice.md",
-		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/arithmetic/arithmetic.cpp",
+		"/home/frankzappasmustache/code/courses/Lab3CPP_Example3_main.cpp",
+		"/home/frankzappasmustache/code/courses/Lab3CPP_Example3.cpp",
+		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_3_heartRate/HeartRates.h",
+		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_3_invoice/Invoice.h",
 		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_3_invoice/Invoice.cpp",
 		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_3_heartRate/HeartRates.cpp",
-		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_3_heartRate/HeartRates.h",
+		"/home/frankzappasmustache/code/courses/Lab3CPP_Example3.h",
+		"/home/frankzappasmustache/code/backup4.cpp",
+		"/home/frankzappasmustache/.config/sublime-text-3/Packages/User/SublimeAStyleFormatter.sublime-settings",
+		"/home/frankzappasmustache/.config/sublime-text-3/Packages/SublimeAStyleFormatter/SublimeAStyleFormatter.sublime-settings",
+		"/home/frankzappasmustache/code/courses/IT121_Python/assignments/Lab_3a_usingStrings/usingStrings.md",
+		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_3_heartRate/heartRate.md",
+		"/home/frankzappasmustache/code/courses/Lab3CPP_Example4.h",
+		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_3_invoice/invoice.md",
+		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/arithmetic/arithmetic.cpp",
 		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_3_invoice/invoice.h",
 		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_3_invoice/invoice.cpp",
-		"/home/frankzappasmustache/code/courses/Lab3CPP_Example4.h",
 		"/home/frankzappasmustache/code/courses/Lab3CPP_Example4.cpp",
-		"/home/frankzappasmustache/code/courses/Lab3CPP_Example3.cpp",
-		"/home/frankzappasmustache/code/courses/Lab3CPP_Example3.h",
 		"/home/frankzappasmustache/code/courses/Lab3CPP_Example1.cpp",
 		"/home/frankzappasmustache/code/courses/Lab3CPP_Example2.cpp",
 		"/home/frankzappasmustache/code/courses/Lab3CPP_Example2.h",
 		"/home/frankzappasmustache/code/courses/Lab3CPP_Example2_Driver.cpp",
 		"/home/frankzappasmustache/code/courses/Lab3CPP_Example2_Driver.h",
-		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_3_heartRate/heartRate.md",
 		"/home/frankzappasmustache/code/courses/CS131_CPP/CS131_CPP_laptop.sublime-workspace.orig",
 		"/home/frankzappasmustache/code/courses/CS131_CPP/CS131_CPP_laptop.sublime-workspace",
 		"/home/frankzappasmustache/code/courses/CS131_CPP/CS131_CPP_laptop_BACKUP_4961.sublime-workspace",
@@ -205,7 +226,7 @@
 	},
 	"find_in_files":
 	{
-		"height": 0.0,
+		"height": 146.0,
 		"where_history":
 		[
 		]
@@ -215,6 +236,9 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"hr",
+			"int",
+			"// ",
 			"std::",
 			"integerUno",
 			"integerDos",
@@ -229,6 +253,7 @@
 		"regex": true,
 		"replace_history":
 		[
+			"myHR",
 			"",
 			"numeroUno",
 			"numeroDos",
@@ -244,6 +269,11 @@
 	},
 	"groups":
 	[
+		{
+			"sheets":
+			[
+			]
+		},
 		{
 			"sheets":
 			[
@@ -278,12 +308,19 @@
 				0,
 				2,
 				1
+			],
+			[
+				2,
+				0,
+				3,
+				1
 			]
 		],
 		"cols":
 		[
 			0.0,
-			0.464225663714,
+			0.314904925028,
+			0.702690213521,
 			1.0
 		],
 		"rows":
@@ -300,6 +337,10 @@
 	"output.SublimeLinter Messages":
 	{
 		"height": 253.0
+	},
+	"output.astyle_error_message":
+	{
+		"height": 0.0
 	},
 	"output.exec":
 	{
@@ -321,7 +362,7 @@
 	"project": "CS131_CPP_laptop.sublime-project",
 	"replace":
 	{
-		"height": 50.0
+		"height": 106.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -358,8 +399,8 @@
 	"show_minimap": false,
 	"show_open_files": false,
 	"show_tabs": true,
-	"side_bar_visible": true,
-	"side_bar_width": 245.0,
+	"side_bar_visible": false,
+	"side_bar_width": 282.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

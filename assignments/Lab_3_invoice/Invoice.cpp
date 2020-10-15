@@ -19,6 +19,9 @@ int main()
 {
   Invoice myInvoice;
 
+  int quantity;
+  int price;
+  
   cout << "The current part number is: " << myInvoice.getPartNumber() << "\n\n";
   cout << "The description for this part is: " << myInvoice.getPartDescription() << "\n\n";
   cout << "The quantity of this part on the invoice is: " << myInvoice.getItmQuantity() << "\n\n";
@@ -42,15 +45,11 @@ int main()
 
   cout << "\nPlease enter the quantity of this part to be billed for: ";
 
-  int quantity;
-
   cin >> quantity;
 
   myInvoice.setItmQuantity(quantity);
 
   cout << "\nPlease enter the standard price per part billed: ";
-
-  int price;
 
   cin >> price;
 
