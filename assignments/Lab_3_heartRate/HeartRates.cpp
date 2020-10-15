@@ -29,9 +29,9 @@ using namespace std;
 
 int main()
 {
-	  string fName;
+      string fName;
       string lName;
-	  int bMonth;
+      int bMonth;
       int bDay;
       int bYear;
       HeartRates myHR(fName, lName, bDay, bMonth, bYear);
@@ -72,14 +72,14 @@ int main()
       cout << "\nFull Name: " << myHR.getFirstName() << " " << myHR.getLastName() << endl;
       cout << "\nToday is: " << month << "/" << day << "/" << year << endl;
       cout << "\nBirthday: " << myHR.getBirthMonth() << "/" << myHR.getBirthDay() << "/" << myHR.getBirthYear() << endl;
-      
+
       cout << "Age: " << myHR.getAge() << endl;
 
       cout << "\nThe maximum suggested heartrate for someone your age is: " << "\n";
-          cout << myHR.getMaxHR() << endl;
+      cout << myHR.getMaxHR() << endl;
 
       cout << "\nThe suggested target heartrate for someone your age is: " << "\n";
-          cout << myHR.getTargetHR() << endl;
+      cout << myHR.getTargetHR() << endl;
 
       return 0;
 };
