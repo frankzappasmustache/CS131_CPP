@@ -4,21 +4,7 @@
     File Name: HeartRates.cpp
     Author: Dustin McClure
     Lab: Lab 2 - Target Heart-Rate Calculator
-    Modified Date: 10/14/2020
-
-    Create a class called HeartRates. The class attributes should include the person�s firstname,
-    last name and date of birth (consisting of separate attributes for the month, day and year
-    of birth). Your class should have a constructor that receives this data as parameters.For each
-    attribute provide set and get functions. The class also should include a function getAge that
-    calculates and returns the person�s age (in years), a function getMaxiumumHeartRate that
-    calculates and returns the person�s maximum heart rate and a function getTargetHeartRate
-    that calculates and returns the person�s target heart rate. Since you do not yet know how to
-    obtain the current date from the computer, function getAge should prompt the user to enter
-    the current month, day and year before calculating the person�s age. Write an application
-    thatprompts for the person�s information, instantiates an object of class HeartRates and prints
-    theinformation from that object � including the person�s first name, last name and date of birth
-    � then calculates and prints the person�s age in (years), maximum heart rate and
-    target-heart-rate range.
+    Modified Date: 10/15/2020
  //*/
 
 #include <iostream>
