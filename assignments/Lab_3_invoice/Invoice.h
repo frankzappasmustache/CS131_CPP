@@ -18,8 +18,6 @@
 class Invoice
 {
 public:
-  Invoice();
-
 void setPartNumber(std::string mpartNumber)
 {
       partNumber = mpartNumber;

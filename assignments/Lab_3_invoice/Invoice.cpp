@@ -17,7 +17,7 @@ using namespace std;
 
 int main()
 {
-  Invoice(Invoice);
+  Invoice myInvoice;
 
   int quantity;
   int price;
