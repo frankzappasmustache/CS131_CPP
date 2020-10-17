@@ -6,8 +6,12 @@
     Lab: Lab 2 - Invoice
     Modified Date: 10/11/2020
 
-    {PROGRAM DESCRIPTION}
- //*/
+
+    The class implementation of the class Invoice,
+    its data members, and member functions. Requests input
+    from user for part number, description, quantity, and price
+    then uses that input to set these values and print an invoice.
+//*/
 #include <iostream>
 #include <string>
 #include "Invoice.h"

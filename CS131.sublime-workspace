@@ -7,22 +7,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "assignments/Lab_3_heartRate/HeartRates.cpp",
-			"settings":
-			{
-				"buffer_size": 2090,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "assignments/Lab_3_heartRate/HeartRates.h",
-			"settings":
-			{
-				"buffer_size": 2472,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "Packages/C++ & C Single File Builder - Minghang Yang/C++ Builder-Minghang Yang.sublime-build",
 	"build_system_choices":
@@ -88,8 +72,20 @@
 		"selected_items":
 		[
 			[
+				"clang",
+				"Clang Format: Format Selection"
+			],
+			[
+				"format",
+				"Clang Format: Format Selection"
+			],
+			[
 				"packa",
 				"Package Control: Install Package"
+			],
+			[
+				"gutter",
+				"Preferences: GitGutter Settings"
 			],
 			[
 				"",
@@ -142,15 +138,20 @@
 	[
 		"/home/frankzappasmustache/code/courses/CS131_CPP",
 		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments",
-		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/arithmetic",
-		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_3_heartRate",
-		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_3_invoice"
+		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_3_heartRate"
 	],
 	"file_history":
 	[
 		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_3_heartRate/HeartRates.h",
+		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_3_heartRate/HeartRates.cpp",
 		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_3_invoice/Invoice.h",
 		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_3_invoice/Invoice.cpp",
+		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/arithmetic/arithmetic.cpp",
+		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_4_gasMileage/gasMileage.md",
+		"/home/frankzappasmustache/.config/sublime-text-3/Packages/User/cout_oneline.sublime-snippet",
+		"/home/frankzappasmustache/.config/sublime-text-3/Packages/User/C++.sublime-build",
+		"/home/frankzappasmustache/.bashrc",
+		"/home/frankzappasmustache/code/courses/CS131_CPP/CS131.sublime-project",
 		"/home/frankzappasmustache/.config/sublime-text-3/Packages/C++11/Main.sublime-menu",
 		"/home/frankzappasmustache/.config/sublime-text-3/Packages/C++11/Indentation Rules.tmPreferences",
 		"/home/frankzappasmustache/.config/sublime-text-3/Packages/C++11/Completion Rules.tmPreferences",
@@ -177,7 +178,6 @@
 		"/home/frankzappasmustache/.gitconfig",
 		"/home/frankzappasmustache/code/my_dotfiles/.gitconfig",
 		"/home/frankzappasmustache/code/my_dotfiles/.bash_profile",
-		"/home/frankzappasmustache/.bashrc",
 		"/home/frankzappasmustache/code/my_dotfiles/.bashrc"
 	],
 	"find":
@@ -213,77 +213,13 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "assignments/Lab_3_heartRate/HeartRates.cpp",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2090,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								192,
-								192
-							]
-						],
-						"settings":
-						{
-							"git_gutter_is_enabled": true,
-							"syntax": "Packages/C++11/C++11.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		},
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 1,
-					"file": "assignments/Lab_3_heartRate/HeartRates.h",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2472,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								314,
-								314
-							]
-						],
-						"settings":
-						{
-							"git_gutter_is_enabled": true,
-							"syntax": "Packages/C++/C++.sublime-syntax",
-							"tab_size": 6,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -387,7 +323,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 183.0,
+	"side_bar_width": 237.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

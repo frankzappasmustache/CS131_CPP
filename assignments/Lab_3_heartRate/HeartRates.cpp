@@ -36,7 +36,7 @@ int main()
       int day;           // integer day
       int year;          //integer year
 
-      // Initialize new class object of type heartrate
+      // Instantiate new class object of type heartrate
       HeartRates myHR(fName, lName, bDay, bMonth, bYear);
 
       // prompt user for first name, store user input stream in fName string, and

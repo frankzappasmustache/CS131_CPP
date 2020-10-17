@@ -6,7 +6,7 @@
     Lab: Lab 2 - Invoice
     Modified Date: 10/11/2020
 
-    The class definition of the class HeartRates,
+    The class definition of the class Invoice,
     its data members, and member functions.
  //*/
 #ifndef INVOICE_H
