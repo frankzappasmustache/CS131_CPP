@@ -7,18 +7,91 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "assignments/Lab_3_heartRate/HeartRates.cpp",
+			"settings":
+			{
+				"buffer_size": 2090,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "assignments/Lab_3_heartRate/HeartRates.h",
+			"settings":
+			{
+				"buffer_size": 2472,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
 	],
-	"build_system": "",
+	"build_system": "Packages/C++ & C Single File Builder - Minghang Yang/C++ Builder-Minghang Yang.sublime-build",
 	"build_system_choices":
 	[
+		[
+			[
+				[
+					"Packages/C++ & C Single File Builder - Minghang Yang/C++ Builder-Minghang Yang.sublime-build",
+					""
+				],
+				[
+					"Packages/C++ & C Single File Builder - Minghang Yang/C++ Builder-Minghang Yang.sublime-build",
+					"Run"
+				],
+				[
+					"Packages/C++ & C Single File Builder - Minghang Yang/C++ Builder-Minghang Yang.sublime-build",
+					"Build and Run"
+				]
+			],
+			[
+				"Packages/C++ & C Single File Builder - Minghang Yang/C++ Builder-Minghang Yang.sublime-build",
+				"Build and Run"
+			]
+		],
+		[
+			[
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					""
+				],
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					"Run"
+				]
+			],
+			[
+				"Packages/C++/C++ Single File.sublime-build",
+				"Run"
+			]
+		],
+		[
+			[
+				[
+					"Packages/C++11/C++11.sublime-build",
+					""
+				],
+				[
+					"Packages/C++11/C++11.sublime-build",
+					"Run"
+				]
+			],
+			[
+				"Packages/C++11/C++11.sublime-build",
+				"Run"
+			]
+		]
 	],
-	"build_varint": "",
+	"build_varint": "Build and Run",
 	"command_palette":
 	{
 		"height": 0.0,
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"",
+				"Package Control: Install Package"
+			],
 			[
 				"high",
 				"SublimeLinter: Toggle Highlights"
@@ -64,10 +137,16 @@
 	},
 	"expanded_folders":
 	[
-		"/home/frankzappasmustache/code/CS131_CPP"
+		"/home/frankzappasmustache/code/courses/CS131_CPP",
+		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments",
+		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/arithmetic",
+		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_3_heartRate",
+		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_3_invoice"
 	],
 	"file_history":
 	[
+		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_3_invoice/Invoice.h",
+		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_3_invoice/Invoice.cpp",
 		"/home/frankzappasmustache/code/CS131_CPP/CS131.sublime-project",
 		"/home/frankzappasmustache/code/IT121_Python/assignments/helloWorld/helloWorld.py",
 		"/home/frankzappasmustache/code/IT121_Python/assignments/helloWorld/helloWorld.md",
@@ -122,8 +201,78 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "assignments/Lab_3_heartRate/HeartRates.cpp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2090,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								440,
+								440
+							]
+						],
+						"settings":
+						{
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/C++11/C++11.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 1,
+					"file": "assignments/Lab_3_heartRate/HeartRates.h",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2472,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1453,
+								1453
+							]
+						],
+						"settings":
+						{
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/C++/C++.sublime-syntax",
+							"tab_size": 6,
+							"translate_tabs_to_spaces": true,
+							"word_wrap": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -144,11 +293,18 @@
 				0,
 				1,
 				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
 			]
 		],
 		"cols":
 		[
 			0.0,
+			0.5,
 			1.0
 		],
 		"rows":
@@ -164,7 +320,7 @@
 	},
 	"output.exec":
 	{
-		"height": 126.0
+		"height": 500.0
 	},
 	"output.find_results":
 	{
@@ -174,7 +330,7 @@
 	{
 		"height": 0.0
 	},
-	"pinned_build_system": "Anaconda Python Builder",
+	"pinned_build_system": "Packages/C++ & C Single File Builder - Minghang Yang/C++ Builder-Minghang Yang.sublime-build",
 	"project": "CS131.sublime-project",
 	"replace":
 	{

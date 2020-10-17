@@ -78,7 +78,7 @@ public:
 
       int getAge()
       {
-            // if current date has not yet been set, get it from user
+            // determine if current date has been set, if not get it from the user
             if ( currentYear == 0 )
             {
                   std::cout << "\nPlease enter today's month, day, and year in this format (not including quotations) \"mm dd yyyy\": " << std::endl;

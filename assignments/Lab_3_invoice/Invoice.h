@@ -18,8 +18,7 @@
 class Invoice
 {
 public:
-Invoice(std::string mpartNumber, std::string mpartDescription, int mitmQuantity,
-       int itmPrice);
+  Invoice();
 
 void setPartNumber(std::string mpartNumber)
 {
