@@ -1,8 +1,28 @@
 {
-	"folders":
-	[
-		{
-			"path": "."
-		}
-	]
+	"folders": [
+    {
+      "name": "CS131_CPP",
+	  "path": "/home/frankzappasmustache/code/courses/CS131_CPP",
+      "file_exclude_patterns":
+      [
+        "*.vcproj",
+        "*.vcxproj",
+        "*.sln",
+        "*.gitignore",
+        "*.gitmodules",
+        "*.vcxproj.*",
+      ],
+      "folder_exclude_patterns":
+      [
+        "build",
+        "out",
+        "third_party",
+        ".git",
+      ],
+    },
+    {
+        "name": "Generated Files",
+        "path": "src/out/Debug/gen",
+    },
+  ],
 }

@@ -20,7 +20,6 @@
 			"settings":
 			{
 				"buffer_size": 2472,
-				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		}
@@ -81,7 +80,7 @@
 			]
 		]
 	],
-	"build_varint": "Build and Run",
+	"build_varint": "",
 	"command_palette":
 	{
 		"height": 0.0,
@@ -89,8 +88,12 @@
 		"selected_items":
 		[
 			[
-				"",
+				"packa",
 				"Package Control: Install Package"
+			],
+			[
+				"",
+				"Package Control: List Packages"
 			],
 			[
 				"high",
@@ -145,8 +148,17 @@
 	],
 	"file_history":
 	[
+		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_3_heartRate/HeartRates.h",
 		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_3_invoice/Invoice.h",
 		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_3_invoice/Invoice.cpp",
+		"/home/frankzappasmustache/.config/sublime-text-3/Packages/C++11/Main.sublime-menu",
+		"/home/frankzappasmustache/.config/sublime-text-3/Packages/C++11/Indentation Rules.tmPreferences",
+		"/home/frankzappasmustache/.config/sublime-text-3/Packages/C++11/Completion Rules.tmPreferences",
+		"/home/frankzappasmustache/.config/sublime-text-3/Packages/C++11/Comments (C++11).tmPreferences",
+		"/home/frankzappasmustache/.config/sublime-text-3/Packages/C++11/C++11.sublime-settings",
+		"/home/frankzappasmustache/.config/sublime-text-3/Packages/C++11/C++11.tmLanguage",
+		"/home/frankzappasmustache/.config/sublime-text-3/Packages/C++11/Symbol List - Hide Function Calls.tmPreferences",
+		"/home/frankzappasmustache/.config/sublime-text-3/Packages/PackageResourceViewer/PackageResourceViewer.sublime-settings",
 		"/home/frankzappasmustache/code/CS131_CPP/CS131.sublime-project",
 		"/home/frankzappasmustache/code/IT121_Python/assignments/helloWorld/helloWorld.py",
 		"/home/frankzappasmustache/code/IT121_Python/assignments/helloWorld/helloWorld.md",
@@ -217,15 +229,15 @@
 						"selection":
 						[
 							[
-								440,
-								440
+								192,
+								192
 							]
 						],
 						"settings":
 						{
 							"git_gutter_is_enabled": true,
 							"syntax": "Packages/C++11/C++11.tmLanguage",
-							"tab_size": 2,
+							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
@@ -254,8 +266,8 @@
 						"selection":
 						[
 							[
-								1453,
-								1453
+								314,
+								314
 							]
 						],
 						"settings":
@@ -263,8 +275,7 @@
 							"git_gutter_is_enabled": true,
 							"syntax": "Packages/C++/C++.sublime-syntax",
 							"tab_size": 6,
-							"translate_tabs_to_spaces": true,
-							"word_wrap": false
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -318,6 +329,10 @@
 	{
 		"height": 0.0
 	},
+	"output.diagnostics":
+	{
+		"height": 0.0
+	},
 	"output.exec":
 	{
 		"height": 500.0
@@ -357,14 +372,14 @@
 	},
 	"select_symbol":
 	{
-		"height": 0.0,
+		"height": 385.0,
 		"last_filter": "",
 		"selected_items":
 		[
 		],
-		"width": 0.0
+		"width": 598.0
 	},
-	"selected_group": 0,
+	"selected_group": 1,
 	"settings":
 	{
 	},
