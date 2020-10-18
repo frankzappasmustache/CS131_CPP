@@ -137,8 +137,7 @@
 	"expanded_folders":
 	[
 		"/home/frankzappasmustache/code/courses/CS131_CPP",
-		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments",
-		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_3_heartRate"
+		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments"
 	],
 	"file_history":
 	[
@@ -315,7 +314,7 @@
 		],
 		"width": 598.0
 	},
-	"selected_group": 1,
+	"selected_group": 0,
 	"settings":
 	{
 	},
@@ -323,7 +322,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 237.0,
+	"side_bar_width": 451.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
