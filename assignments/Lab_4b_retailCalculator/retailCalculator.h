@@ -26,6 +26,7 @@ public:
         number = prod_num;
         qtySold = quant;
     }
+    retailCalculator rCalc();
 private:
     int qtySold{0};
     int number;
