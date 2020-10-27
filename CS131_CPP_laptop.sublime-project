@@ -2,7 +2,10 @@
 	"folders":
 	[
 		{
-			"path": "/home/frankzappasmustache/code/courses"
+			"path": "."
+		},
+		{
+			"path": "/home/frankzappasmustache/code/courses/tests_examples"
 		}
 	]
 }

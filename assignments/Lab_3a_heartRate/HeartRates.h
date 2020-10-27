@@ -17,7 +17,7 @@
 #include <iostream>
 #include <string>
 
-class HeartRates // beginning of class definition for HeartRates
+class HeartRates; // beginning of class definition for HeartRates
 {
 public:
       HeartRates(std::string fName, std::string lName, int bDay, int bMonth, int bYear) // constructor for class HeartRates

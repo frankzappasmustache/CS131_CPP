@@ -8,7 +8,7 @@
 	"buffers":
 	[
 	],
-	"build_system": "Packages/C++ & C Single File Builder - Minghang Yang/C++ Builder-Minghang Yang.sublime-build",
+	"build_system": "Packages/User/C++.sublime-build",
 	"build_system_choices":
 	[
 		[
@@ -62,15 +62,55 @@
 				"Packages/C++11/C++11.sublime-build",
 				"Run"
 			]
+		],
+		[
+			[
+				[
+					"Packages/User/C++.sublime-build",
+					""
+				],
+				[
+					"Packages/User/C++.sublime-build",
+					"Run in Terminal"
+				]
+			],
+			[
+				"Packages/User/C++.sublime-build",
+				"Run in Terminal"
+			]
 		]
 	],
-	"build_varint": "Build and Run",
+	"build_varint": "",
 	"command_palette":
 	{
 		"height": 0.0,
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"clan",
+				"Clang Format: Format Selection"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"pac",
+				"Package Control: Install Package"
+			],
+			[
+				"packa",
+				"Package Control: Disable Package"
+			],
+			[
+				"lint",
+				"SublimeLinter: Show All Errors"
+			],
+			[
+				"c++",
+				"Set Syntax: C++11"
+			],
 			[
 				"cla",
 				"Clang Format: Format Selection"
@@ -80,24 +120,12 @@
 				"Clang Format: Format Selection"
 			],
 			[
-				"pac",
-				"Package Control: Install Package"
-			],
-			[
-				"packa",
-				"Package Control: Install Package"
-			],
-			[
 				"markdown",
 				"Markdown Preview: Preview in Browser"
 			],
 			[
 				"sublimerepl",
 				"SublimeLinter: Reload SublimeLinter and its Plugins"
-			],
-			[
-				"pack",
-				"Package Control: Install Package"
 			],
 			[
 				"py",
@@ -144,20 +172,50 @@
 	},
 	"expanded_folders":
 	[
-		"/home/frankzappasmustache/code/courses",
 		"/home/frankzappasmustache/code/courses/CS131_CPP",
 		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments",
+		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/arithmetic",
 		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_3_heartRate",
-		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_3_invoice"
+		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_3_invoice",
+		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_4a_gasMileage",
+		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_4b_retailCalculator"
 	],
 	"file_history":
 	[
-		"/home/frankzappasmustache/code/courses/Lab3CPP_Example3_main.cpp",
-		"/home/frankzappasmustache/code/courses/Lab3CPP_Example3.cpp",
-		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_3_heartRate/HeartRates.h",
-		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_3_invoice/Invoice.h",
+		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_4b_retailCalculator/retailCalculator.cpp",
+		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_4b_retailCalculator/retailCalculator.h",
 		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_3_invoice/Invoice.cpp",
+		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/arithmetic/arithmetic.cpp",
 		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_3_heartRate/HeartRates.cpp",
+		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_3_heartRate/HeartRates.h",
+		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_4b_retailCalculator/main.cpp",
+		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_4a_gasMileage/gasMileageCalc.md",
+		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_4a_gasMileage/gasMileage.md",
+		"/home/frankzappasmustache/code/courses/tests_examples/My-scripts/midterm.sh",
+		"/home/frankzappasmustache/code/courses/tests_examples/My-scripts/Kieran C++ CS131 Lab 03 - Loops - Number Guesserv2.cpp",
+		"/home/frankzappasmustache/code/courses/tests_examples/My-scripts/Kieran C++ CS132 Lab 04.3 - Classes III.cpp",
+		"/home/frankzappasmustache/code/courses/tests_examples/My-scripts/Kieran C++ CS132 Lab 04.2 - Classes III.cpp",
+		"/home/frankzappasmustache/code/courses/tests_examples/My-scripts/Kieran C++ CS132 Lab 04.1 - Classes III.cpp",
+		"/home/frankzappasmustache/code/courses/tests_examples/My-scripts/Kieran C++ CS132 Lab 03.2 - Classes Continued.cpp",
+		"/home/frankzappasmustache/code/courses/tests_examples/My-scripts/Kieran C++ CS132 Lab 03.1 - Classes Continued.cpp",
+		"/home/frankzappasmustache/code/courses/CS131_CPP/CS131_CPP_laptop.sublime-project",
+		"/home/frankzappasmustache/code/courses/IT121_Python/IT121_laptop.sublime-project",
+		"/home/frankzappasmustache/code/courses/IT121_Python/IT121.sublime-workspace",
+		"/home/frankzappasmustache/code/courses/IT121_Python/IT121.sublime-project",
+		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_3_invoice/Invoice.h",
+		"/home/frankzappasmustache/code/courses/CS131_CPP/CS131_CPP_laptop.sublime-workspace.orig",
+		"/home/frankzappasmustache/.bashrc",
+		"/home/frankzappasmustache/.config/sublime-text-3/Packages/User/C++.sublime-build",
+		"/home/frankzappasmustache/.config/sublime-text-3/Packages/User/cout_oneline.sublime-snippet",
+		"/home/frankzappasmustache/.config/sublime-text-3/Packages/C++11/messages/install.txt",
+		"/home/frankzappasmustache/.config/sublime-text-3/Packages/User/C++11.sublime-settings",
+		"/home/frankzappasmustache/.config/sublime-text-3/Packages/C++11/C++11.sublime-settings",
+		"/home/frankzappasmustache/.config/sublime-text-3/Packages/SublimeLinter-gcc/miscellaneous/demo.cpp",
+		"/home/frankzappasmustache/.config/sublime-text-3/Packages/C++ Classhelper/C++ Classhelper.sublime-settings",
+		"/home/frankzappasmustache/.config/sublime-text-3/Packages/C++NamespaceTool/C++NamespaceTool.sublime-settings",
+		"/home/frankzappasmustache/code/courses/Lab3CPP_Example3.cpp",
+		"/home/frankzappasmustache/code/courses/Lab3CPP_Example3_main.cpp",
+		"/home/frankzappasmustache/code/courses/Lab3CPP_Example4.cpp",
 		"/home/frankzappasmustache/code/courses/Lab3CPP_Example3.h",
 		"/home/frankzappasmustache/code/backup4.cpp",
 		"/home/frankzappasmustache/.config/sublime-text-3/Packages/User/SublimeAStyleFormatter.sublime-settings",
@@ -166,22 +224,18 @@
 		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_3_heartRate/heartRate.md",
 		"/home/frankzappasmustache/code/courses/Lab3CPP_Example4.h",
 		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_3_invoice/invoice.md",
-		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/arithmetic/arithmetic.cpp",
 		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_3_invoice/invoice.h",
 		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_3_invoice/invoice.cpp",
-		"/home/frankzappasmustache/code/courses/Lab3CPP_Example4.cpp",
 		"/home/frankzappasmustache/code/courses/Lab3CPP_Example1.cpp",
 		"/home/frankzappasmustache/code/courses/Lab3CPP_Example2.cpp",
 		"/home/frankzappasmustache/code/courses/Lab3CPP_Example2.h",
 		"/home/frankzappasmustache/code/courses/Lab3CPP_Example2_Driver.cpp",
 		"/home/frankzappasmustache/code/courses/Lab3CPP_Example2_Driver.h",
-		"/home/frankzappasmustache/code/courses/CS131_CPP/CS131_CPP_laptop.sublime-workspace.orig",
 		"/home/frankzappasmustache/code/courses/CS131_CPP/CS131_CPP_laptop.sublime-workspace",
 		"/home/frankzappasmustache/code/courses/CS131_CPP/CS131_CPP_laptop_BACKUP_4961.sublime-workspace",
 		"/home/frankzappasmustache/code/courses/CS131_CPP/CS131_CPP_laptop_BASE_4961.sublime-workspace",
 		"/home/frankzappasmustache/code/courses/CS131_CPP/CS131_CPP_laptop_LOCAL_4961.sublime-workspace",
 		"/home/frankzappasmustache/code/courses/CS131_CPP/CS131_CPP_laptop_REMOTE_4961.sublime-workspace",
-		"/home/frankzappasmustache/code/courses/CS131_CPP/CS131_CPP_laptop.sublime-project",
 		"/home/frankzappasmustache/Programs/alienfx_aw13r3/README.md",
 		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/arithmetic/circleGeometry.cpp",
 		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/updateProfile/updateProfile.md",
@@ -215,14 +269,13 @@
 		"/run/media/frankzappasmustache/21807644-010e-4d09-a038-50d24f15673d/debian_backup/.gitconfig",
 		"/run/media/frankzappasmustache/21807644-010e-4d09-a038-50d24f15673d/debian_backup/.dmrc",
 		"/home/frankzappasmustache/.bash_profile",
-		"/home/frankzappasmustache/.bashrc",
 		"/home/frankzappasmustache/.gtkrc-2.0",
 		"/run/media/frankzappasmustache/21807644-010e-4d09-a038-50d24f15673d/debian_backup/.bashrc",
 		"/home/frankzappasmustache/.dircolors"
 	],
 	"find":
 	{
-		"height": 27.0
+		"height": 31.0
 	},
 	"find_in_files":
 	{
@@ -236,6 +289,9 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"totalSale",
+			"myInvoice1.",
+			"myInvoice.",
 			"hr",
 			"int",
 			"// ",
@@ -250,9 +306,14 @@
 		"highlight": true,
 		"in_selection": false,
 		"preserve_case": false,
-		"regex": true,
+		"regex": false,
 		"replace_history":
 		[
+			"totalCost",
+			"myInvoice.",
+			"myInvoice1.",
+			"myInvoice2.",
+			"myInvoice2",
 			"myHR",
 			"",
 			"numeroUno",
@@ -278,20 +339,15 @@
 			"sheets":
 			[
 			]
-		},
-		{
-			"sheets":
-			[
-			]
 		}
 	],
 	"incremental_find":
 	{
-		"height": 27.0
+		"height": 31.0
 	},
 	"input":
 	{
-		"height": 51.0
+		"height": 53.0
 	},
 	"layout":
 	{
@@ -308,19 +364,12 @@
 				0,
 				2,
 				1
-			],
-			[
-				2,
-				0,
-				3,
-				1
 			]
 		],
 		"cols":
 		[
 			0.0,
-			0.314904925028,
-			0.702690213521,
+			0.5,
 			1.0
 		],
 		"rows":
@@ -332,13 +381,17 @@
 	"menu_visible": true,
 	"output.SublimeLinter":
 	{
-		"height": 0.0
+		"height": 328.0
 	},
 	"output.SublimeLinter Messages":
 	{
 		"height": 253.0
 	},
 	"output.astyle_error_message":
+	{
+		"height": 0.0
+	},
+	"output.diagnostics":
 	{
 		"height": 0.0
 	},
@@ -392,18 +445,33 @@
 		],
 		"width": 0.0
 	},
-	"selected_group": 1,
+	"selected_group": 0,
 	"settings":
 	{
+		"last_automatic_layout":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		]
 	},
 	"show_minimap": false,
-	"show_open_files": false,
+	"show_open_files": true,
 	"show_tabs": true,
-	"side_bar_visible": false,
-	"side_bar_width": 282.0,
+	"side_bar_visible": true,
+	"side_bar_width": 238.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
-		"max_columns": 1
+		"max_columns": 2
 	}
 }
