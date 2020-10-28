@@ -29,7 +29,7 @@ int main()
     // Declarations
      int prod_num{0}; // initialize int prod_num to 0
      int quant{0}; // initialize int quant to 0
-     double total{0.00}; // initialize double total to 0.00
+     double total{0}; // initialize double total to 0
 
      // Begin sentinel controlled while loop that executes while true
      // that prod_num does not equal 10
