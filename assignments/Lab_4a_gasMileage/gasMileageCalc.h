@@ -18,7 +18,7 @@ class gasMileageCalc // beginning of class def for gasMileageCalc
 {
 public:
     // constructor for class gasMileageCalc
-    gasMileageCalc(int tripMiles, int tripGallons, double singleMPG, double allMPG, double grandTotal)
+    gasMileageCalc(double tripMiles, double tripGallons, double singleMPG, double allMPG, double grandTotal)
     {
         miles = tripMiles; // initialize miles data member
         gallons = tripGallons; // initialize gallons data member
@@ -28,8 +28,8 @@ public:
     }
 
 private:
-    int miles{0}; // class int data member initialized to 0
-    int gallons{0}; // class int data member initialized to 0
+    double miles{0}; // class int data member initialized to 0
+    double gallons{0}; // class int data member initialized to 0
     double tripMPG{0}; // class double data member initialized to 0
     double totalMPG{0}; // class double data member initialized to 0
     double totalTotal{0}; // class double data member initialized to 0

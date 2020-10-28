@@ -13,12 +13,10 @@
  //*/
 #include <cstdio>
 #include <cmath>
-#include <ctime>
 #include <iostream>
 #include <iomanip>
 #include <string>
-#include <typeinfo>
-#include "gasMileage.h"
+#include "gasMileageCalc.h"
 using namespace std;
 
 // function main begins program execution
@@ -47,7 +45,7 @@ int main()
 
         // if tripMiles equals 01 pass execution to return of int main
 		if (tripMiles == 01)
-			break;;
+			break;
 
         // if trip miles does not equal 01 ask for tripGallons
         // and store in tripGallons
