@@ -11,7 +11,8 @@
 			"file": "assignments/Lab_5a_smallestValue/avgOfIntegers.cpp",
 			"settings":
 			{
-				"buffer_size": 262,
+				"buffer_size": 2860,
+				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
@@ -19,7 +20,8 @@
 			"file": "assignments/Lab_5a_smallestValue/avgOfIntegers.h",
 			"settings":
 			{
-				"buffer_size": 256,
+				"buffer_size": 868,
+				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		}
@@ -104,20 +106,24 @@
 		"selected_items":
 		[
 			[
-				"clan",
-				"Clang Format: Format Selection"
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"book",
+				"SublimeBookmarks: Show All Bookmarks "
 			],
 			[
 				"pack",
 				"Package Control: Install Package"
 			],
 			[
-				"pac",
-				"Package Control: Install Package"
+				"clan",
+				"Clang Format: Format Selection"
 			],
 			[
-				"packa",
-				"Package Control: Disable Package"
+				"pac",
+				"Package Control: Install Package"
 			],
 			[
 				"lint",
@@ -190,24 +196,31 @@
 	[
 		"/home/frankzappasmustache/code/courses/CS131_CPP",
 		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments",
+		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_2_arithmetic",
+		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_3a_heartRate",
+		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_4b_retailCalculator",
 		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_5a_smallestValue",
-		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_5b_PeterMinuitProblem",
-		"/home/frankzappasmustache/code/courses/tests_examples",
-		"/home/frankzappasmustache/code/courses/tests_examples/Deitel_Cplusplus_Practice"
+		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_5b_PeterMinuitProblem"
 	],
 	"file_history":
 	[
-		"/home/frankzappasmustache/Documents/fedora_33_upgrade_broken_packages.txt",
-		"/home/frankzappasmustache/code/courses/tests_examples/Deitel_Cplusplus_Practice/Chapter 03 & 04 Exercises/Ex 4.19/findtheTwoLargestNumbrs.cpp",
-		"/home/frankzappasmustache/code/courses/tests_examples/Deitel_Cplusplus_Practice/Chapter 03 & 04 Exercises/Ex 4.19/findtheTwoLargestNumbrs.hpp",
-		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_4b_retailCalculator/retailCalculator.cpp",
 		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_5a_smallestValue/avgOfIntegers.cpp",
+		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_4b_retailCalculator/retailCalculator.h",
+		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_4b_retailCalculator/retailCalculator.cpp",
+		"/home/frankzappasmustache/code/courses/tests_examples/Deitel_Cplusplus_Practice/Chapter 03 & 04 Exercises/Ex 4.19/findtheTwoLargestNumbrs.cpp",
+		"/home/frankzappasmustache/code/courses/tests_examples/Deitel_Cplusplus_Practice/Chapter 03 & 04 Exercises/Ex 4.17/findtheLargest.cpp",
+		"/home/frankzappasmustache/code/courses/tests_examples/Deitel_Cplusplus_Practice/Chapter 03 & 04 Exercises/Ex 4.17/findtheLargest.hpp",
+		"/home/frankzappasmustache/code/courses/tests_examples/Deitel_Cplusplus_Practice/Chapter 03 & 04 Exercises/Ex 4.19/findtheTwoLargestNumbrs.hpp",
+		"/home/frankzappasmustache/Documents/gnupg_keygen_dustin_t_mcclure_gmail.txt",
+		"/home/frankzappasmustache/Documents/ssh_keygen_github.txt",
+		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_5b_PeterMinuitProblem/peterMinuit.cpp",
+		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_5b_PeterMinuitProblem/peterMinuit.h",
 		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_5a_smallestValue/avgOfIntegers.h",
+		"/home/frankzappasmustache/Documents/fedora_33_upgrade_broken_packages.txt",
 		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_5a_smallestValue/smallestValue.md",
 		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_4a_gasMileage/gasMileageCalc.cpp",
 		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_4a_gasMileage/gasMileageCalc.h",
 		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_5b_PeterMinuitProblem/PeterMinuitProblem.md",
-		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_4b_retailCalculator/retailCalculator.h",
 		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_2_arithmetic/arithmetic.cpp",
 		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_4a_gasMileage/main .cpp",
 		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_3a_heartRate/HeartRates.h",
@@ -371,24 +384,35 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 262,
+						"buffer_size": 2860,
 						"regions":
 						{
+							"better_bookmarks":
+							{
+								"flags": 144,
+								"icon": "Packages/Theme - Default/common/bookmark.png",
+								"regions":
+								[
+								],
+								"scope": "string"
+							}
 						},
 						"selection":
 						[
 							[
-								262,
-								262
+								2746,
+								2746
 							]
 						],
 						"settings":
 						{
 							"git_gutter_is_enabled": true,
-							"syntax": "Packages/C++11/C++11.tmLanguage"
+							"syntax": "Packages/C++11/C++11.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 1241.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -406,24 +430,25 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 256,
+						"buffer_size": 868,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								726,
+								726
 							]
 						],
 						"settings":
 						{
 							"git_gutter_is_enabled": true,
-							"syntax": "Packages/C Improved/C Improved.tmLanguage"
+							"syntax": "Packages/C Improved/C Improved.tmLanguage",
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 54.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
@@ -460,7 +485,7 @@
 		"cols":
 		[
 			0.0,
-			0.385108285054,
+			0.5,
 			1.0
 		],
 		"rows":
@@ -559,7 +584,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 365.0,
+	"side_bar_width": 200.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
