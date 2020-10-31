@@ -54,12 +54,12 @@ int main()
 		<< "the format '0.00':\n";
 		cin >> tripGallons;
 
-       // store average mpg in singleMPG and print average for trip
+        // store average mpg in singleMPG and print average for trip
 		singleMPG = tripMiles / tripGallons;
 		cout << setiosflags(ios::fixed | ios::showpoint)
 		<< "Your average MPG for this trip was: " << setprecision(2) << singleMPG << endl;
 
-        // add each single grip average to allMPG
+        // add each single trip average to allMPG
 		allMPG += singleMPG;
 
 		// calculate grand total by storing quotient of allMPG divided

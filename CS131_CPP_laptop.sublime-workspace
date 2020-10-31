@@ -7,6 +7,22 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "assignments/Lab_5a_smallestValue/avgOfIntegers.cpp",
+			"settings":
+			{
+				"buffer_size": 262,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "assignments/Lab_5a_smallestValue/avgOfIntegers.h",
+			"settings":
+			{
+				"buffer_size": 256,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "Packages/User/C++.sublime-build",
 	"build_system_choices":
@@ -174,16 +190,31 @@
 	[
 		"/home/frankzappasmustache/code/courses/CS131_CPP",
 		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments",
-		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/arithmetic",
-		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_3_heartRate",
-		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_3_invoice",
-		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_4a_gasMileage",
-		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_4b_retailCalculator"
+		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_5a_smallestValue",
+		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_5b_PeterMinuitProblem",
+		"/home/frankzappasmustache/code/courses/tests_examples",
+		"/home/frankzappasmustache/code/courses/tests_examples/Deitel_Cplusplus_Practice"
 	],
 	"file_history":
 	[
+		"/home/frankzappasmustache/Documents/fedora_33_upgrade_broken_packages.txt",
+		"/home/frankzappasmustache/code/courses/tests_examples/Deitel_Cplusplus_Practice/Chapter 03 & 04 Exercises/Ex 4.19/findtheTwoLargestNumbrs.cpp",
+		"/home/frankzappasmustache/code/courses/tests_examples/Deitel_Cplusplus_Practice/Chapter 03 & 04 Exercises/Ex 4.19/findtheTwoLargestNumbrs.hpp",
 		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_4b_retailCalculator/retailCalculator.cpp",
+		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_5a_smallestValue/avgOfIntegers.cpp",
+		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_5a_smallestValue/avgOfIntegers.h",
+		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_5a_smallestValue/smallestValue.md",
+		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_4a_gasMileage/gasMileageCalc.cpp",
+		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_4a_gasMileage/gasMileageCalc.h",
+		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_5b_PeterMinuitProblem/PeterMinuitProblem.md",
 		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_4b_retailCalculator/retailCalculator.h",
+		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_2_arithmetic/arithmetic.cpp",
+		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_4a_gasMileage/main .cpp",
+		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_3a_heartRate/HeartRates.h",
+		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_3b_invoice/Invoice.h",
+		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_3b_invoice/Invoice.cpp",
+		"/home/frankzappasmustache/code/courses/backups/CS131/assignments/Lab_4b_retailCalculator/retailCalculatorBackup1.h",
+		"/home/frankzappasmustache/code/courses/backups/CS131/assignments/Lab_4b_retailCalculator/retailCalculatorBackup1.cpp",
 		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_3_invoice/Invoice.cpp",
 		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/arithmetic/arithmetic.cpp",
 		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_3_heartRate/HeartRates.cpp",
@@ -331,13 +362,73 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "assignments/Lab_5a_smallestValue/avgOfIntegers.cpp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 262,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								262,
+								262
+							]
+						],
+						"settings":
+						{
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/C++11/C++11.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		},
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 1,
+					"file": "assignments/Lab_5a_smallestValue/avgOfIntegers.h",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 256,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/C Improved/C Improved.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -369,7 +460,7 @@
 		"cols":
 		[
 			0.0,
-			0.5,
+			0.385108285054,
 			1.0
 		],
 		"rows":
@@ -468,7 +559,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 238.0,
+	"side_bar_width": 365.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
