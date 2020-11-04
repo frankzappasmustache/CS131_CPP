@@ -46,14 +46,19 @@ int main() {
         cin >> numTwo;
         cout << "Please enter third number:\n";
         cin >> numThree;
-        if (0 <= numOne && numTwo && numThree >= 100) {
+        if ((numOne > 0) and (numOne <= 100) and (numTwo > 0) and
+            (numTwo <= 100) and (numThree > 0) and (numThree <= 100)) {
           average = (numOne + numTwo + numThree) / 3;
-          return average;
-        } else {
-          cout << "Please enter a number between 0 and 100\n";
           break;
+          return average;
+
+        } else {
+          cout << "Please start again, entering only numbers between 0 and "
+                  "100.\n";
+          cin.ignore(average);
         }
-        break;
+        continue;
+
       case 4:
         cout << "Please enter first number:\n";
         cin >> numOne;
@@ -63,14 +68,19 @@ int main() {
         cin >> numThree;
         cout << "Please enter fourth number:\n";
         cin >> numFour;
-        if (0 <= numOne && numTwo && numThree && numFour >= 100) {
+        if ((numOne > 0) and (numOne <= 100) and (numTwo > 0) and
+            (numTwo <= 100) and (numThree > 0) and (numThree <= 100) and
+            (numFour > 0) and (numFour <= 100)) {
           average = (numOne + numTwo + numThree + numFour) / 4;
+          break;
           return average;
         } else {
-          cout << "Please enter a number between 0 and 100\n";
-          break;
+          cout << "Please start again, entering only numbers between 0 and "
+                  "100.\n";
+          cin.ignore(average);
         }
-        break;
+        continue;
+
       case 5:
         cout << "Please enter first number:\n";
         cin >> numOne;
@@ -82,17 +92,25 @@ int main() {
         cin >> numFour;
         cout << "Please enter fifth number:\n";
         cin >> numFive;
-        if (0 <= numOne && numTwo && numThree && numFour && numFive >= 100) {
+        if ((numOne > 0) and (numOne <= 100) and (numTwo > 0) and
+            (numTwo <= 100) and (numThree > 0) and (numThree <= 100) and
+            (numFour > 0) and (numFour <= 100) and (numFive > 0) and
+            (numFive <= 100)) {
           average = (numOne + numTwo + numThree + numFour + numFive) / 5;
+          break;
           return average;
         } else {
-          cout << "Please enter a number between 0 and 100\n";
-          break;
+          cout << "Please start again, entering only numbers between 0 and "
+                  "100.\n";
+          cin.ignore(average);
         }
-        break;
+        continue;
+
+      default:
+        cout << "The number you entered was not valid. Please enter try again";
+        continue;
     }
-  cout << "The average of the numbers you entered is: " << average << endl;
-}
-return 0;
-}
-;
+    cout << "The average of the numbers you entered is: " << average << endl;
+  }
+  return 0;
+};

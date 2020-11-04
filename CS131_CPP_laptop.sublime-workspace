@@ -11,16 +11,7 @@
 			"file": "assignments/Lab_5a_smallestValue/avgOfIntegers.cpp",
 			"settings":
 			{
-				"buffer_size": 2860,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "assignments/Lab_5a_smallestValue/avgOfIntegers.h",
-			"settings":
-			{
-				"buffer_size": 868,
+				"buffer_size": 3576,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -196,14 +187,18 @@
 	[
 		"/home/frankzappasmustache/code/courses/CS131_CPP",
 		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments",
-		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_2_arithmetic",
-		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_3a_heartRate",
 		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_4b_retailCalculator",
 		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_5a_smallestValue",
-		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_5b_PeterMinuitProblem"
+		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_5b_PeterMinuitProblem",
+		"/home/frankzappasmustache/code/courses/tests_examples",
+		"/home/frankzappasmustache/code/courses/tests_examples/Deitel_Cplusplus_Practice",
+		"/home/frankzappasmustache/code/courses/tests_examples/Deitel_Cplusplus_Practice/Chapter 03 & 04 Exercises",
+		"/home/frankzappasmustache/code/courses/tests_examples/Deitel_Cplusplus_Practice/Chapter 03 & 04 Exercises/Ex 4.25",
+		"/home/frankzappasmustache/code/courses/tests_examples/Deitel_Cplusplus_Practice/Chapter 03 & 04 Exercises/Ex 4.35"
 	],
 	"file_history":
 	[
+		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_5a_smallestValue/avgOfIntegers.h",
 		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_5a_smallestValue/avgOfIntegers.cpp",
 		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_4b_retailCalculator/retailCalculator.h",
 		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_4b_retailCalculator/retailCalculator.cpp",
@@ -215,7 +210,6 @@
 		"/home/frankzappasmustache/Documents/ssh_keygen_github.txt",
 		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_5b_PeterMinuitProblem/peterMinuit.cpp",
 		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_5b_PeterMinuitProblem/peterMinuit.h",
-		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_5a_smallestValue/avgOfIntegers.h",
 		"/home/frankzappasmustache/Documents/fedora_33_upgrade_broken_packages.txt",
 		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_5a_smallestValue/smallestValue.md",
 		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_4a_gasMileage/gasMileageCalc.cpp",
@@ -333,6 +327,31 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"          cin.ignore(average);\n        ",
+			"return average;\\n\\s+}",
+			"cin.sync\\(\\);",
+			"\\(!",
+			"100\\s>",
+			"0\\s<",
+			"100\\.\";(\\n)",
+			"\\n\\s+return average;",
+			"(100)(\\s)(>)(\\s)(num.*)(\\))",
+			"(100)(\\s)(>)(\\s)(num.*)",
+			"(\\()(0\\s<\\s)(num.*)(\\s<\\s100)(\\))",
+			"(0\\s<\\s)\\((.*\\s<\\s100)\\)",
+			"(num.*)(\\s<\\s100)",
+			"(0\\s<\\s)\\((.*\\s<\\s100)\\)",
+			"\\((0\\s<\\s.*)\\)(\\s<\\s100)",
+			"(0\\s<\\s)\\((.*)\\)(\\s<\\s100)",
+			"(0\\s<\\s)\\((.*\\))(\\s<\\s100)",
+			"else if .*\\n\\s+.*\\n\\s+(.*\\n\\s+.*)",
+			"else if .*\\n\\s+.*\\n\\s+",
+			"max",
+			"min",
+			"continue",
+			"(else if\\s.*\\n\\s+.*\\n\\s+.*\\n\\s+.*\\n\\s+)continue;",
+			"(if \\(.*\\)*.*\\n\\s+.*\\n\\s+.*\\n\\s+)break;",
+			"Please enter a number between 0 and 100\\n",
 			"totalSale",
 			"myInvoice1.",
 			"myInvoice.",
@@ -353,6 +372,30 @@
 		"regex": false,
 		"replace_history":
 		[
+			"          cin.ignore(average);\n        continue;",
+			"return average;\nbreak;        }",
+			"\t\t\tcin.clear();\n\t\t\tcin.ignore(numeric_limits<streamsize>::max, '\\n');",
+			"(",
+			"100 <",
+			"0 >",
+			"0\\s>",
+			"100.\";\\1break;",
+			"",
+			"\\5\\4<\\2\\1\\6",
+			"\\5\\4<\\2\\1",
+			"\\1\\2\\3\\5 && \\1\\3\\4\\5",
+			"\\1) && (\\1\\2)",
+			"\\1)\\s&&\\s(\\1\\2)",
+			"(\\1\\2)",
+			"(\\1\\2\\3)",
+			"else {\\n\\1",
+			"else\\n",
+			"100",
+			"0",
+			"break",
+			"\\1break;",
+			"\\1continue;",
+			"Please start again, entering only numbers between 0 and 100\\n.",
 			"totalCost",
 			"myInvoice.",
 			"myInvoice1.",
@@ -384,7 +427,7 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2860,
+						"buffer_size": 3576,
 						"regions":
 						{
 							"better_bookmarks":
@@ -400,8 +443,8 @@
 						"selection":
 						[
 							[
-								2746,
-								2746
+								988,
+								988
 							]
 						],
 						"settings":
@@ -412,46 +455,10 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1241.0,
+						"translation.y": 496.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
-					"type": "text"
-				}
-			]
-		},
-		{
-			"selected": 0,
-			"sheets":
-			[
-				{
-					"buffer": 1,
-					"file": "assignments/Lab_5a_smallestValue/avgOfIntegers.h",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 868,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								726,
-								726
-							]
-						],
-						"settings":
-						{
-							"git_gutter_is_enabled": true,
-							"syntax": "Packages/C Improved/C Improved.tmLanguage",
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 54.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
 					"type": "text"
 				}
 			]
@@ -474,18 +481,11 @@
 				0,
 				1,
 				1
-			],
-			[
-				1,
-				0,
-				2,
-				1
 			]
 		],
 		"cols":
 		[
 			0.0,
-			0.5,
 			1.0
 		],
 		"rows":
@@ -531,7 +531,7 @@
 	"project": "CS131_CPP_laptop.sublime-project",
 	"replace":
 	{
-		"height": 106.0
+		"height": 108.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -564,27 +564,12 @@
 	"selected_group": 0,
 	"settings":
 	{
-		"last_automatic_layout":
-		[
-			[
-				0,
-				0,
-				1,
-				1
-			],
-			[
-				1,
-				0,
-				2,
-				1
-			]
-		]
 	},
 	"show_minimap": false,
 	"show_open_files": true,
 	"show_tabs": true,
-	"side_bar_visible": true,
-	"side_bar_width": 200.0,
+	"side_bar_visible": false,
+	"side_bar_width": 275.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
