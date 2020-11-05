@@ -7,15 +7,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "assignments/Lab_5a_smallestValue/avgOfIntegers.cpp",
-			"settings":
-			{
-				"buffer_size": 3576,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "Packages/User/C++.sublime-build",
 	"build_system_choices":
@@ -185,23 +176,25 @@
 	},
 	"expanded_folders":
 	[
-		"/home/frankzappasmustache/code/courses/CS131_CPP",
-		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments",
-		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_4b_retailCalculator",
-		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_5a_smallestValue",
-		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_5b_PeterMinuitProblem",
-		"/home/frankzappasmustache/code/courses/tests_examples",
-		"/home/frankzappasmustache/code/courses/tests_examples/Deitel_Cplusplus_Practice",
-		"/home/frankzappasmustache/code/courses/tests_examples/Deitel_Cplusplus_Practice/Chapter 03 & 04 Exercises",
-		"/home/frankzappasmustache/code/courses/tests_examples/Deitel_Cplusplus_Practice/Chapter 03 & 04 Exercises/Ex 4.25",
-		"/home/frankzappasmustache/code/courses/tests_examples/Deitel_Cplusplus_Practice/Chapter 03 & 04 Exercises/Ex 4.35"
+		"/home/frankzappasmustache/code/courses/CS131_CPP"
 	],
 	"file_history":
 	[
-		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_5a_smallestValue/avgOfIntegers.h",
-		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_5a_smallestValue/avgOfIntegers.cpp",
+		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_6a_parkingCharges/parkingCharges.h",
+		"/home/frankzappasmustache/code/courses/tests_examples/Deitel/Chapter_06/exercises/6.12/src/main.cpp",
+		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_6a_parkingCharges/parkingCharges.cpp",
 		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_4b_retailCalculator/retailCalculator.h",
 		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_4b_retailCalculator/retailCalculator.cpp",
+		"/home/frankzappasmustache/code/courses/tests_examples/Dustins_tests/parkingCharges.cpp",
+		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_7_sieveOfEratosthenes/sieveOfEratosthenes.md",
+		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_7_sieveOfEratosthenes/sieveOfEratosthenes.cpp",
+		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_7_sieveOfEratosthenes/sieveOfEratosthenes.h",
+		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_6a_parkingCharges/parkingCharges.md",
+		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_6b_recursiveExponentiation/recursiveExponentiation.md",
+		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_6b_recursiveExponentiation/recursiveExponentiation.cpp",
+		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_6b_recursiveExponentiation/recursiveExponentiation.h",
+		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_5a_smallestValue/avgOfIntegers.cpp",
+		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_5a_smallestValue/avgOfIntegers.h",
 		"/home/frankzappasmustache/code/courses/tests_examples/Deitel_Cplusplus_Practice/Chapter 03 & 04 Exercises/Ex 4.19/findtheTwoLargestNumbrs.cpp",
 		"/home/frankzappasmustache/code/courses/tests_examples/Deitel_Cplusplus_Practice/Chapter 03 & 04 Exercises/Ex 4.17/findtheLargest.cpp",
 		"/home/frankzappasmustache/code/courses/tests_examples/Deitel_Cplusplus_Practice/Chapter 03 & 04 Exercises/Ex 4.17/findtheLargest.hpp",
@@ -418,49 +411,13 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "assignments/Lab_5a_smallestValue/avgOfIntegers.cpp",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3576,
-						"regions":
-						{
-							"better_bookmarks":
-							{
-								"flags": 144,
-								"icon": "Packages/Theme - Default/common/bookmark.png",
-								"regions":
-								[
-								],
-								"scope": "string"
-							}
-						},
-						"selection":
-						[
-							[
-								988,
-								988
-							]
-						],
-						"settings":
-						{
-							"git_gutter_is_enabled": true,
-							"syntax": "Packages/C++11/C++11.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 496.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
+			]
+		},
+		{
+			"sheets":
+			[
 			]
 		}
 	],
@@ -481,11 +438,18 @@
 				0,
 				1,
 				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
 			]
 		],
 		"cols":
 		[
 			0.0,
+			0.5,
 			1.0
 		],
 		"rows":
@@ -495,6 +459,10 @@
 		]
 	},
 	"menu_visible": true,
+	"output.ECC":
+	{
+		"height": 144.0
+	},
 	"output.SublimeLinter":
 	{
 		"height": 328.0
@@ -561,15 +529,15 @@
 		],
 		"width": 0.0
 	},
-	"selected_group": 0,
+	"selected_group": 1,
 	"settings":
 	{
 	},
 	"show_minimap": false,
 	"show_open_files": true,
 	"show_tabs": true,
-	"side_bar_visible": false,
-	"side_bar_width": 275.0,
+	"side_bar_visible": true,
+	"side_bar_width": 264.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
