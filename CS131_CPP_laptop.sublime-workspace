@@ -92,6 +92,10 @@
 				"Package Control: Install Package"
 			],
 			[
+				"debug",
+				"Package Control: Enable Debug Mode"
+			],
+			[
 				"book",
 				"SublimeBookmarks: Show All Bookmarks "
 			],
@@ -163,6 +167,9 @@
 		"height": 329.0,
 		"history":
 		[
+			"import logging; log = logging.getLogger(\"test\"); log.debug(\"this is debug\"); log.info(\"this is info\")",
+			"clear()",
+			"clear"
 		]
 	},
 	"distraction_free":
@@ -180,6 +187,14 @@
 	],
 	"file_history":
 	[
+		"/home/frankzappasmustache/code/courses/CS131_CPP/CS131.sublime-project",
+		"/home/frankzappasmustache/code/courses/CS131_CPP/CS131_CPP_laptop.sublime-project",
+		"/home/frankzappasmustache/code/courses/CS131_CPP/.gitignore",
+		"/home/frankzappasmustache/code/courses/CS131_CPP/CS131_CPP_laptop.sublime-workspace.orig",
+		"/home/frankzappasmustache/code/courses/CS131_CPP/CS131_CPP_laptop.sublime-workspace",
+		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_5a_smallestValue/avgOfIntegers.h",
+		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_5a_smallestValue/avgOfIntegers.cpp",
+		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_5a_smallestValue/avgOfIntegers",
 		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_6a_parkingCharges/parkingCharges.h",
 		"/home/frankzappasmustache/code/courses/tests_examples/Deitel/Chapter_06/exercises/6.12/src/main.cpp",
 		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_6a_parkingCharges/parkingCharges.cpp",
@@ -193,8 +208,6 @@
 		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_6b_recursiveExponentiation/recursiveExponentiation.md",
 		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_6b_recursiveExponentiation/recursiveExponentiation.cpp",
 		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_6b_recursiveExponentiation/recursiveExponentiation.h",
-		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_5a_smallestValue/avgOfIntegers.cpp",
-		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_5a_smallestValue/avgOfIntegers.h",
 		"/home/frankzappasmustache/code/courses/tests_examples/Deitel_Cplusplus_Practice/Chapter 03 & 04 Exercises/Ex 4.19/findtheTwoLargestNumbrs.cpp",
 		"/home/frankzappasmustache/code/courses/tests_examples/Deitel_Cplusplus_Practice/Chapter 03 & 04 Exercises/Ex 4.17/findtheLargest.cpp",
 		"/home/frankzappasmustache/code/courses/tests_examples/Deitel_Cplusplus_Practice/Chapter 03 & 04 Exercises/Ex 4.17/findtheLargest.hpp",
@@ -229,12 +242,10 @@
 		"/home/frankzappasmustache/code/courses/tests_examples/My-scripts/Kieran C++ CS132 Lab 04.1 - Classes III.cpp",
 		"/home/frankzappasmustache/code/courses/tests_examples/My-scripts/Kieran C++ CS132 Lab 03.2 - Classes Continued.cpp",
 		"/home/frankzappasmustache/code/courses/tests_examples/My-scripts/Kieran C++ CS132 Lab 03.1 - Classes Continued.cpp",
-		"/home/frankzappasmustache/code/courses/CS131_CPP/CS131_CPP_laptop.sublime-project",
 		"/home/frankzappasmustache/code/courses/IT121_Python/IT121_laptop.sublime-project",
 		"/home/frankzappasmustache/code/courses/IT121_Python/IT121.sublime-workspace",
 		"/home/frankzappasmustache/code/courses/IT121_Python/IT121.sublime-project",
 		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_3_invoice/Invoice.h",
-		"/home/frankzappasmustache/code/courses/CS131_CPP/CS131_CPP_laptop.sublime-workspace.orig",
 		"/home/frankzappasmustache/.bashrc",
 		"/home/frankzappasmustache/.config/sublime-text-3/Packages/User/C++.sublime-build",
 		"/home/frankzappasmustache/.config/sublime-text-3/Packages/User/cout_oneline.sublime-snippet",
@@ -262,7 +273,6 @@
 		"/home/frankzappasmustache/code/courses/Lab3CPP_Example2.h",
 		"/home/frankzappasmustache/code/courses/Lab3CPP_Example2_Driver.cpp",
 		"/home/frankzappasmustache/code/courses/Lab3CPP_Example2_Driver.h",
-		"/home/frankzappasmustache/code/courses/CS131_CPP/CS131_CPP_laptop.sublime-workspace",
 		"/home/frankzappasmustache/code/courses/CS131_CPP/CS131_CPP_laptop_BACKUP_4961.sublime-workspace",
 		"/home/frankzappasmustache/code/courses/CS131_CPP/CS131_CPP_laptop_BASE_4961.sublime-workspace",
 		"/home/frankzappasmustache/code/courses/CS131_CPP/CS131_CPP_laptop_LOCAL_4961.sublime-workspace",
@@ -272,7 +282,6 @@
 		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/updateProfile/updateProfile.md",
 		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/arithmetic/arithmetic.md",
 		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/multiplier/arithmetic.cpp",
-		"/home/frankzappasmustache/code/courses/CS131_CPP/.gitignore",
 		"/home/frankzappasmustache/code/courses/CS131_CPP/cmake-build-debug/.gitignore",
 		"/home/frankzappasmustache/code/courses/CS131_CPP/.idea/.gitignore",
 		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/multiplier/multiplier.cpp",
@@ -477,7 +486,7 @@
 	},
 	"output.diagnostics":
 	{
-		"height": 0.0
+		"height": 130.0
 	},
 	"output.exec":
 	{
@@ -529,7 +538,7 @@
 		],
 		"width": 0.0
 	},
-	"selected_group": 1,
+	"selected_group": 0,
 	"settings":
 	{
 	},
@@ -537,7 +546,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 264.0,
+	"side_bar_width": 379.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

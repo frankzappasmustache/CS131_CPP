@@ -2,7 +2,7 @@
 	"folders": [
     {
       "name": "CS131_CPP",
-	  "path": "/home/frankzappasmustache/code/courses/CS131_CPP",
+	    "path": "/home/frankzappasmustache/code/courses/CS131_CPP",
       "file_exclude_patterns":
       [
         "*.vcproj",

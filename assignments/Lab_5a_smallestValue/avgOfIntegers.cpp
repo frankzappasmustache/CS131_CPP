@@ -30,13 +30,13 @@ int main() {
   int numFour{0};
   int numFive{0};
 
-  while (numberCount != 10) {
+  while (numberCount != 1) {
     cout << "Please enter a number of integers for which you would like to find"
          << " the average. You can calculate for 3, 4, or 5 integers. Please "
-            "enter 10 to exit:\n";
+            "enter 1 to exit:\n";
     cin >> numberCount;
 
-    if (numberCount == 10) break;
+    if (numberCount == 1) break;
 
     switch (numberCount) {
       case 3:
