@@ -117,13 +117,13 @@ int main()
       default:
         // if no case for numberCount let user know their entry was invalid,
         // and send them back to prompt for number of integers
-        cout << "The number you entered was not valid. Please enter try again.\n\n";
+        cout << "The number you entered was not valid. Please try again.\n\n";
         continue;
     }
     // print average calculated for case, and then set sum back to 0 so we
     // don't keep a very large running total
     cout << "The average of the numbers you entered is: " << average << "\n";
     sum = 0;
-  } while (numberCount > 3 || numberCount < 5);
+  } while (true);
   return 0;
 };

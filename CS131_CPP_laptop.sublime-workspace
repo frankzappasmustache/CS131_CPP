@@ -7,41 +7,6 @@
 	},
 	"buffers":
 	[
-		{
-			"contents": "/*\n    Project Name: CS131_CPP\n    Sub-project: Labs\n    File Name: peterMinuit.cpp\n    Author: Dustin McClure\n    Lab: Lab 5b - Peter Minuit Problem\n    Modified Date: 10/30/2020\n\n    The class implementation of the peterMinuit class\n*/\n#include <iostream>\n#include <iomanip>\n#include <cmath>\n\nint main()\n{\n    double amount{0};\n    double principal{24.0f};\n\n    std::cout << std::fixed << std::setprecision(2);\n\n    for (double rate{0.05}; rate <= 0.10; rate += 0.01)\n    {\n        std::cout << std::endl\n                  << \"Interest rate: \"\n                  << rate * 100\n                  << \"%\"\n                  << std::endl\n                  << \"Year\"\n                  << std::setw(30)\n                  << \"Amount on deposit\"\n                  << std::endl;\n\n        for (int year{1626}; year <= 2020; ++year)\n        {\n            amount = principal * pow(1 + rate, year - 1626);\n\n            if (year == 1626 || year == 2008 || year == 2010 || year == 2020 || year % 50 == 0)\n            {\n                std::cout << std::setw(4)\n                          << year\n                          << std::setw(30)\n                          << amount\n                          << std::endl;\n            }\n        }\n    }\n\n    return 0;\n}",
-			"file": "assignments/Lab_5b_PeterMinuitProblem/peterMinuit.cpp",
-			"file_size": 238,
-			"file_write_time": 132485767080489792,
-			"settings":
-			{
-				"buffer_size": 1245,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/home/frankzappasmustache/code/courses/tests_examples/Deitel/Chapter_05/exercises/5.29/src/main.cpp",
-			"settings":
-			{
-				"buffer_size": 1007,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"contents": "/*\n    Project Name: CS131_CPP\n    Sub-project: Labs\n    File Name: avgOfIntegers.cpp\n    Author: Dustin McClure\n    Lab: Lab 5a - Find average of between 3 and 5 integers\n    Modified Date: 10/27/2020\n\n    The class implementation of the avgOfIntegers class\n*/\n\n#include \"avgOfIntegers.h\"\n\n#include <math.h>\n\n#include <iomanip>\n#include <iostream>\n#include <string>\nusing namespace std;\n\nint main() {\n  avgOfIntegers intAverage(int numberCount, double average, int numOne,\n                           int numTwo, int numThree, int numFour, int numFive);\n  // Declarations\n  int numberCount{0};\n  double average{0};\n  int numOne{0};\n  int numTwo{0};\n  int numThree{0};\n  int numFour{0};\n  int numFive{0};\n  bool repeat;\n\n  do {\n    cout << \"Please enter a number of integers for which you would like to find\"\n         << \" the average. You can calculate for 3, 4, or 5 integers. Please \"\n            \"enter 1 to exit:\\n\";\n    cin >> numberCount;\n\n    if (numberCount == 1) break;\n\n    repeat = false;\n    switch (numberCount) {\n      case 3:\n        cout << \"Please enter first number:\\n\";\n        cin >> numOne;\n        cout << \"Please enter second number:\\n\";\n        cin >> numTwo;\n        cout << \"Please enter third number:\\n\";\n        cin >> numThree;\n        if ((numOne > 0) and (numOne <= 100) and (numTwo > 0) and\n            (numTwo <= 100) and (numThree > 0) and (numThree <= 100)) {\n          average = (numOne + numTwo + numThree) / 3;\n          break;\n          return average;\n\n        } else {\n          cout << \"Please start again, entering only numbers between 0 and \"\n                  \"100.\\n\";\n          cin.ignore(average);\n        }\n        continue;\n\n      case 4:\n        cout << \"Please enter first number:\\n\";\n        cin >> numOne;\n        cout << \"Please enter second number:\\n\";\n        cin >> numTwo;\n        cout << \"Please enter third number:\\n\";\n        cin >> numThree;\n        cout << \"Please enter fourth number:\\n\";\n        cin >> numFour;\n        if ((numOne > 0) and (numOne <= 100) and (numTwo > 0) and\n            (numTwo <= 100) and (numThree > 0) and (numThree <= 100) and\n            (numFour > 0) and (numFour <= 100)) {\n          average = (numOne + numTwo + numThree + numFour) / 4;\n          break;\n          return average;\n        } else {\n          cout << \"Please start again, entering only numbers between 0 and \"\n                  \"100.\\n\";\n          cin.ignore(average);\n        }\n        continue;\n\n      case 5:\n        cout << \"Please enter first number:\\n\";\n        cin >> numOne;\n        cout << \"Please enter second number:\\n\";\n        cin >> numTwo;\n        cout << \"Please enter third number:\\n\";\n        cin >> numThree;\n        cout << \"Please enter fourth number:\\n\";\n        cin >> numFour;\n        cout << \"Please enter fifth number:\\n\";\n        cin >> numFive;\n        if ((numOne > 0) and (numOne <= 100) and (numTwo > 0) and\n            (numTwo <= 100) and (numThree > 0) and (numThree <= 100) and\n            (numFour > 0) and (numFour <= 100) and (numFive > 0) and\n            (numFive <= 100)) {\n          average = (numOne + numTwo + numThree + numFour + numFive) / 5;\n          break;\n          return average;\n        } else {\n          cout << \"Please start again, entering only numbers between 0 and \"\n                  \"100.\\n\";\n          cin.ignore(average);\n        }\n        continue;\n\n      default:\n        cout << \"The number you entered was not valid. Please enter try again\";\n        repeat = true;\n        continue;\n    }\n    cout << \"The average of the numbers you entered is: \" << average << endl;\n  } while (numberCount > 3 || numberCount < 5);\n  return 0;\n};\n",
-			"settings":
-			{
-				"buffer_size": 3653,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"contents": "\n// Fig. 5.6: Interest.cpp\n// Compound-interest calculations with for.\n#include <cmath>  // for pow function\n#include <iomanip>\n#include <iostream>\nusing namespace std;\nint main() {\n  // set floating-point number format\n  cout << fixed << setprecision(2);\n  double principal{1000.00};  // initial amount before interest\n  double rate{0.05};          // interest rate\n  cout << \"Initial principal: \" << principal << endl;\n  cout << \"\n      Interest rate : \" << rate << endl;\n                      // display headers\n                      cout\n       << \"\\nYear\"\n       << setw(20)\n       << \"Amount on deposit\"\n       << endl;\n  // calculate amount on deposit for each of ten years\n  for (unsigned int year{1}; year <= 10; year++) {\n    // calculate amount on deposit at the end of the specified year\n    double amount = principal * pow(1.0 + rate, year);\n    // display the year and the amount\n    cout << setw(4) << year << setw(20) << amount << endl;\n  }\n}",
-			"settings":
-			{
-				"buffer_size": 958,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "Packages/User/C++.sublime-build",
 	"build_system_choices":
@@ -218,13 +183,63 @@
 	},
 	"expanded_folders":
 	[
-		"/home/frankzappasmustache/code/courses/tests_examples"
+		"/home/frankzappasmustache/code/courses/CS131_CPP",
+		"/home/frankzappasmustache/code/courses/tests_examples",
+		"/home/frankzappasmustache/code/courses/tests_examples/Deitel",
+		"/home/frankzappasmustache/code/courses/tests_examples/Deitel/Chapter_05",
+		"/home/frankzappasmustache/code/courses/tests_examples/Deitel/Chapter_05/exercises",
+		"/home/frankzappasmustache/code/courses/tests_examples/Deitel/Chapter_05/exercises/5.06",
+		"/home/frankzappasmustache/code/courses/tests_examples/Deitel/Chapter_05/exercises/5.06/src",
+		"/home/frankzappasmustache/code/courses/tests_examples/Deitel/Chapter_05/exercises/5.09",
+		"/home/frankzappasmustache/code/courses/tests_examples/Deitel/Chapter_05/exercises/5.09/src",
+		"/home/frankzappasmustache/code/courses/tests_examples/Deitel/Chapter_05/exercises/5.10",
+		"/home/frankzappasmustache/code/courses/tests_examples/Deitel/Chapter_05/exercises/5.10/src",
+		"/home/frankzappasmustache/code/courses/tests_examples/Deitel/Chapter_05/exercises/5.11",
+		"/home/frankzappasmustache/code/courses/tests_examples/Deitel/Chapter_05/exercises/5.11/src",
+		"/home/frankzappasmustache/code/courses/tests_examples/Deitel/Chapter_05/exercises/5.12",
+		"/home/frankzappasmustache/code/courses/tests_examples/Deitel/Chapter_05/exercises/5.12/src",
+		"/home/frankzappasmustache/code/courses/tests_examples/Deitel/Chapter_05/exercises/5.13",
+		"/home/frankzappasmustache/code/courses/tests_examples/Deitel/Chapter_05/exercises/5.13/src",
+		"/home/frankzappasmustache/code/courses/tests_examples/Deitel/Chapter_05/exercises/5.14",
+		"/home/frankzappasmustache/code/courses/tests_examples/Deitel/Chapter_05/exercises/5.14/src",
+		"/home/frankzappasmustache/code/courses/tests_examples/Deitel/Chapter_05/exercises/5.15",
+		"/home/frankzappasmustache/code/courses/tests_examples/Deitel/Chapter_05/exercises/5.15/src",
+		"/home/frankzappasmustache/code/courses/tests_examples/Deitel/Chapter_05/exercises/5.18",
+		"/home/frankzappasmustache/code/courses/tests_examples/Deitel/Chapter_05/exercises/5.18/src",
+		"/home/frankzappasmustache/code/courses/tests_examples/Deitel/Chapter_05/exercises/5.20",
+		"/home/frankzappasmustache/code/courses/tests_examples/Deitel/Chapter_05/exercises/5.20/src",
+		"/home/frankzappasmustache/code/courses/tests_examples/Deitel/Chapter_05/exercises/5.22",
+		"/home/frankzappasmustache/code/courses/tests_examples/Deitel/Chapter_05/exercises/5.22/src",
+		"/home/frankzappasmustache/code/courses/tests_examples/Deitel/Chapter_05/exercises/5.23",
+		"/home/frankzappasmustache/code/courses/tests_examples/Deitel/Chapter_05/exercises/5.23/src"
 	],
 	"file_history":
 	[
-		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_5b_PeterMinuitProblem/peterMinuit.h",
+		"/home/frankzappasmustache/code/courses/test.cpp",
+		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_5b_PeterMinuitProblem/peterMinuit.cpp",
 		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_5a_smallestValue/avgOfIntegers.h",
 		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_5a_smallestValue/avgOfIntegers.cpp",
+		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_4a_gasMileage/gasMileageCalc.h",
+		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_3b_invoice/Invoice.h",
+		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_3b_invoice/Invoice.cpp",
+		"/home/frankzappasmustache/code/courses/tests_examples/Deitel/Chapter_05/exercises/5.06/src/main.cpp",
+		"/home/frankzappasmustache/code/courses/tests_examples/Deitel/Chapter_05/exercises/5.08/src/main.cpp",
+		"/home/frankzappasmustache/code/courses/tests_examples/Deitel/Chapter_05/exercises/5.09/src/main.cpp",
+		"/home/frankzappasmustache/code/courses/tests_examples/Deitel/Chapter_05/exercises/5.10/src/main.cpp",
+		"/home/frankzappasmustache/code/courses/tests_examples/Deitel/Chapter_05/exercises/5.14/src/main.cpp",
+		"/home/frankzappasmustache/code/courses/tests_examples/Deitel/Chapter_05/exercises/5.13/src/main.cpp",
+		"/home/frankzappasmustache/code/courses/tests_examples/Deitel/Chapter_05/exercises/5.12/src/main.cpp",
+		"/home/frankzappasmustache/code/courses/tests_examples/Deitel/Chapter_05/exercises/5.11/src/main.cpp",
+		"/home/frankzappasmustache/code/courses/tests_examples/Deitel/Chapter_05/exercises/5.16/src/main.cpp",
+		"/home/frankzappasmustache/code/courses/tests_examples/Deitel/Chapter_05/exercises/5.23/src/main.cpp",
+		"/home/frankzappasmustache/code/courses/tests_examples/Deitel/Chapter_05/exercises/5.22/src/main.cpp",
+		"/home/frankzappasmustache/code/courses/tests_examples/Deitel/Chapter_05/exercises/5.21/src/main.cpp",
+		"/home/frankzappasmustache/code/courses/tests_examples/Deitel/Chapter_05/exercises/5.20/src/main.cpp",
+		"/home/frankzappasmustache/code/courses/tests_examples/Deitel/Chapter_05/exercises/5.18/src/main.cpp",
+		"/home/frankzappasmustache/code/courses/tests_examples/Deitel/Chapter_05/exercises/5.19/src/main.cpp",
+		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_4b_retailCalculator/retailCalculator.cpp",
+		"/home/frankzappasmustache/code/courses/tests_examples/Deitel/Chapter_05/exercises/5.29/src/main.cpp",
+		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_5b_PeterMinuitProblem/peterMinuit.h",
 		"/home/frankzappasmustache/code/courses/tests_examples/My-scripts/Kieran Python IT121 Lab MIDTERM EXAM Study Calculator.py",
 		"/home/frankzappasmustache/code/courses/CS131_CPP/CS131.sublime-project",
 		"/home/frankzappasmustache/code/courses/CS131_CPP/CS131_CPP_laptop.sublime-project",
@@ -236,7 +251,6 @@
 		"/home/frankzappasmustache/code/courses/tests_examples/Deitel/Chapter_06/exercises/6.12/src/main.cpp",
 		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_6a_parkingCharges/parkingCharges.cpp",
 		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_4b_retailCalculator/retailCalculator.h",
-		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_4b_retailCalculator/retailCalculator.cpp",
 		"/home/frankzappasmustache/code/courses/tests_examples/Dustins_tests/parkingCharges.cpp",
 		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_7_sieveOfEratosthenes/sieveOfEratosthenes.md",
 		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_7_sieveOfEratosthenes/sieveOfEratosthenes.cpp",
@@ -251,17 +265,13 @@
 		"/home/frankzappasmustache/code/courses/tests_examples/Deitel_Cplusplus_Practice/Chapter 03 & 04 Exercises/Ex 4.19/findtheTwoLargestNumbrs.hpp",
 		"/home/frankzappasmustache/Documents/gnupg_keygen_dustin_t_mcclure_gmail.txt",
 		"/home/frankzappasmustache/Documents/ssh_keygen_github.txt",
-		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_5b_PeterMinuitProblem/peterMinuit.cpp",
 		"/home/frankzappasmustache/Documents/fedora_33_upgrade_broken_packages.txt",
 		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_5a_smallestValue/smallestValue.md",
 		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_4a_gasMileage/gasMileageCalc.cpp",
-		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_4a_gasMileage/gasMileageCalc.h",
 		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_5b_PeterMinuitProblem/PeterMinuitProblem.md",
 		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_2_arithmetic/arithmetic.cpp",
 		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_4a_gasMileage/main .cpp",
 		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_3a_heartRate/HeartRates.h",
-		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_3b_invoice/Invoice.h",
-		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_3b_invoice/Invoice.cpp",
 		"/home/frankzappasmustache/code/courses/backups/CS131/assignments/Lab_4b_retailCalculator/retailCalculatorBackup1.h",
 		"/home/frankzappasmustache/code/courses/backups/CS131/assignments/Lab_4b_retailCalculator/retailCalculatorBackup1.cpp",
 		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_3_invoice/Invoice.cpp",
@@ -332,22 +342,7 @@
 		"/home/frankzappasmustache/.config/sublime-text-3/Packages/sublime_lib/.flake8",
 		"/home/frankzappasmustache/.config/sublime-text-3/Packages/Pylinter/Pylinter.sublime-settings",
 		"/home/frankzappasmustache/.config/sublime-text-3/Packages/Pylinter/pylinter.py",
-		"/home/frankzappasmustache/.config/sublime-text-3/Packages/User/Python.sublime-settings",
-		"/home/frankzappasmustache/.config/sublime-text-3/Packages/User/Pylinter.sublime-settings",
-		"/home/frankzappasmustache/pylint.rc",
-		"/run/media/frankzappasmustache/21807644-010e-4d09-a038-50d24f15673d/debian_backup/pubring.kbx",
-		"/run/media/frankzappasmustache/21807644-010e-4d09-a038-50d24f15673d/debian_backup/.Xdefaults",
-		"/run/media/frankzappasmustache/21807644-010e-4d09-a038-50d24f15673d/debian_backup/.profile",
-		"/run/media/frankzappasmustache/21807644-010e-4d09-a038-50d24f15673d/debian_backup/.lessfilter",
-		"/home/frankzappasmustache/.imwheelrc",
-		"/home/frankzappasmustache/.lessfilter",
-		"/run/media/frankzappasmustache/21807644-010e-4d09-a038-50d24f15673d/debian_backup/.netrc",
-		"/run/media/frankzappasmustache/21807644-010e-4d09-a038-50d24f15673d/debian_backup/.gitconfig",
-		"/run/media/frankzappasmustache/21807644-010e-4d09-a038-50d24f15673d/debian_backup/.dmrc",
-		"/home/frankzappasmustache/.bash_profile",
-		"/home/frankzappasmustache/.gtkrc-2.0",
-		"/run/media/frankzappasmustache/21807644-010e-4d09-a038-50d24f15673d/debian_backup/.bashrc",
-		"/home/frankzappasmustache/.dircolors"
+		"/home/frankzappasmustache/.config/sublime-text-3/Packages/User/Python.sublime-settings"
 	],
 	"find":
 	{
@@ -461,155 +456,13 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "assignments/Lab_5b_PeterMinuitProblem/peterMinuit.cpp",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1245,
-						"regions":
-						{
-							"better_bookmarks":
-							{
-								"flags": 144,
-								"icon": "Packages/Theme - Default/common/bookmark.png",
-								"regions":
-								[
-								],
-								"scope": "string"
-							}
-						},
-						"selection":
-						[
-							[
-								1245,
-								1245
-							]
-						],
-						"settings":
-						{
-							"git_gutter_is_enabled": true,
-							"syntax": "Packages/C++11/C++11.tmLanguage"
-						},
-						"translation.x": 3.0,
-						"translation.y": 233.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "/home/frankzappasmustache/code/courses/tests_examples/Deitel/Chapter_05/exercises/5.29/src/main.cpp",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1007,
-						"regions":
-						{
-							"better_bookmarks":
-							{
-								"flags": 144,
-								"icon": "Packages/Theme - Default/common/bookmark.png",
-								"regions":
-								[
-								],
-								"scope": "string"
-							}
-						},
-						"selection":
-						[
-							[
-								1007,
-								1007
-							]
-						],
-						"settings":
-						{
-							"git_gutter_is_enabled": true,
-							"syntax": "Packages/C++11/C++11.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				}
 			]
 		},
 		{
-			"selected": 1,
 			"sheets":
 			[
-				{
-					"buffer": 2,
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3653,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								3653,
-								3653
-							]
-						],
-						"settings":
-						{
-							"default_dir": "/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_5a_smallestValue",
-							"git_gutter_is_enabled": false,
-							"syntax": "Packages/C++11/C++11.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 1485.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 958,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								958,
-								958
-							]
-						],
-						"settings":
-						{
-							"auto_name": "",
-							"default_dir": "/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_5b_PeterMinuitProblem",
-							"git_gutter_is_enabled": false,
-							"syntax": "Packages/C++11/C++11.tmLanguage",
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -651,6 +504,10 @@
 		]
 	},
 	"menu_visible": true,
+	"output.Debugger":
+	{
+		"height": 266.0
+	},
 	"output.ECC":
 	{
 		"height": 144.0
@@ -729,7 +586,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 329.0,
+	"side_bar_width": 251.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
