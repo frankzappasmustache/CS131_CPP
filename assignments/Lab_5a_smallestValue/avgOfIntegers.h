@@ -4,9 +4,9 @@
     File Name: avgOfIntegers.h
     Author: Dustin McClure
     Lab: Lab 5a - Find average of between 3 and 5 integers
-    Modified Date: 10/27/2020
+    Modified Date: 11/06/2020
 
-    The class definition of the avgOfIntegers class
+    The class definition of the class avgOfIntegers and its data members.
 */
 #ifndef avgOfIntegers_h
 #define avgOfIntegers_h
@@ -14,30 +14,23 @@
 #include <iostream>
 #include <cstdlib>
 #include <string>
-#include <vector>
-#include <numeric>
 
-class avgOfIntegers
+class avgOfIntegers // beginning of class definition for avgOfIntegers
 {
 public:
-    avgOfIntegers(int numberCount, double average, int numOne, int numTwo, int numThree, int numFour, int numFive)
+    // constructor for class avgOfIntegers
+    avgOfIntegers(int numberCount, double average, int number, double sum)
     {
-        count = numberCount;
-        avg = average;
-        one = numOne;
-        two = numTwo;
-        three = numThree;
-        four = numFour;
-        five = numFive;
+        count = numberCount; // initialize count data member
+        avg = average; // initialize avg data member
+        num = number; // initialize num data member
+        add = sum; // initialize add data member
     }
 private:
-    int count{0};
-    double avg{0};
-    int one{0};
-    int two{0};
-    int three{0};
-    int four{0};
-    int five{0};
+    int count{0}; // class int data member initialized to 0
+    double avg{0.0}; // class int data member initialized to 0
+    int num{0}; // class int data member initialized to 0
+    double add{0.00}; // class int data member initialized to 0
 };
 
 #endif
