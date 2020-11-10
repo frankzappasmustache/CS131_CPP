@@ -88,6 +88,10 @@
 		"selected_items":
 		[
 			[
+				"pac",
+				"Package Control: Install Package"
+			],
+			[
 				"packa",
 				"Package Control: Install Package"
 			],
@@ -106,10 +110,6 @@
 			[
 				"clan",
 				"Clang Format: Format Selection"
-			],
-			[
-				"pac",
-				"Package Control: Install Package"
 			],
 			[
 				"lint",
@@ -184,39 +184,27 @@
 	"expanded_folders":
 	[
 		"/home/frankzappasmustache/code/courses/CS131_CPP",
-		"/home/frankzappasmustache/code/courses/tests_examples",
-		"/home/frankzappasmustache/code/courses/tests_examples/Deitel",
-		"/home/frankzappasmustache/code/courses/tests_examples/Deitel/Chapter_05",
-		"/home/frankzappasmustache/code/courses/tests_examples/Deitel/Chapter_05/exercises",
-		"/home/frankzappasmustache/code/courses/tests_examples/Deitel/Chapter_05/exercises/5.06",
-		"/home/frankzappasmustache/code/courses/tests_examples/Deitel/Chapter_05/exercises/5.06/src",
-		"/home/frankzappasmustache/code/courses/tests_examples/Deitel/Chapter_05/exercises/5.09",
-		"/home/frankzappasmustache/code/courses/tests_examples/Deitel/Chapter_05/exercises/5.09/src",
-		"/home/frankzappasmustache/code/courses/tests_examples/Deitel/Chapter_05/exercises/5.10",
-		"/home/frankzappasmustache/code/courses/tests_examples/Deitel/Chapter_05/exercises/5.10/src",
-		"/home/frankzappasmustache/code/courses/tests_examples/Deitel/Chapter_05/exercises/5.11",
-		"/home/frankzappasmustache/code/courses/tests_examples/Deitel/Chapter_05/exercises/5.11/src",
-		"/home/frankzappasmustache/code/courses/tests_examples/Deitel/Chapter_05/exercises/5.12",
-		"/home/frankzappasmustache/code/courses/tests_examples/Deitel/Chapter_05/exercises/5.12/src",
-		"/home/frankzappasmustache/code/courses/tests_examples/Deitel/Chapter_05/exercises/5.13",
-		"/home/frankzappasmustache/code/courses/tests_examples/Deitel/Chapter_05/exercises/5.13/src",
-		"/home/frankzappasmustache/code/courses/tests_examples/Deitel/Chapter_05/exercises/5.14",
-		"/home/frankzappasmustache/code/courses/tests_examples/Deitel/Chapter_05/exercises/5.14/src",
-		"/home/frankzappasmustache/code/courses/tests_examples/Deitel/Chapter_05/exercises/5.15",
-		"/home/frankzappasmustache/code/courses/tests_examples/Deitel/Chapter_05/exercises/5.15/src",
-		"/home/frankzappasmustache/code/courses/tests_examples/Deitel/Chapter_05/exercises/5.18",
-		"/home/frankzappasmustache/code/courses/tests_examples/Deitel/Chapter_05/exercises/5.18/src",
-		"/home/frankzappasmustache/code/courses/tests_examples/Deitel/Chapter_05/exercises/5.20",
-		"/home/frankzappasmustache/code/courses/tests_examples/Deitel/Chapter_05/exercises/5.20/src",
-		"/home/frankzappasmustache/code/courses/tests_examples/Deitel/Chapter_05/exercises/5.22",
-		"/home/frankzappasmustache/code/courses/tests_examples/Deitel/Chapter_05/exercises/5.22/src",
-		"/home/frankzappasmustache/code/courses/tests_examples/Deitel/Chapter_05/exercises/5.23",
-		"/home/frankzappasmustache/code/courses/tests_examples/Deitel/Chapter_05/exercises/5.23/src"
+		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments",
+		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_4b_retailCalculator",
+		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_5a_smallestValue",
+		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_6a_parkingCharges"
 	],
 	"file_history":
 	[
-		"/home/frankzappasmustache/code/courses/test.cpp",
+		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_6a_parkingCharges/parkingCharges.h",
+		"/home/frankzappasmustache/code/courses/tests_examples/Deitel/Chapter_06/exercises/6.12/src/main.cpp",
+		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_3a_heartRate/HeartRates.cpp",
+		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_4b_retailCalculator/retailCalculator.cpp",
+		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_6a_parkingCharges/parkingCharges.cpp",
+		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_3a_heartRate/HeartRates.h",
+		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_2_arithmetic/arithmetic.cpp",
+		"/home/frankzappasmustache/code/courses/CS131_CPP/CS131_CPP_laptop.sublime-project",
+		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_7_sieveOfEratosthenes/sieveOfEratosthenes.h",
+		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_7_sieveOfEratosthenes/sieveOfEratosthenes.cpp",
+		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_6b_recursiveExponentiation/recursiveExponentiation.h",
+		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_6b_recursiveExponentiation/recursiveExponentiation.cpp",
 		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_5b_PeterMinuitProblem/peterMinuit.cpp",
+		"/home/frankzappasmustache/code/courses/test.cpp",
 		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_5a_smallestValue/avgOfIntegers.h",
 		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_5a_smallestValue/avgOfIntegers.cpp",
 		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_4a_gasMileage/gasMileageCalc.h",
@@ -237,28 +225,19 @@
 		"/home/frankzappasmustache/code/courses/tests_examples/Deitel/Chapter_05/exercises/5.20/src/main.cpp",
 		"/home/frankzappasmustache/code/courses/tests_examples/Deitel/Chapter_05/exercises/5.18/src/main.cpp",
 		"/home/frankzappasmustache/code/courses/tests_examples/Deitel/Chapter_05/exercises/5.19/src/main.cpp",
-		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_4b_retailCalculator/retailCalculator.cpp",
 		"/home/frankzappasmustache/code/courses/tests_examples/Deitel/Chapter_05/exercises/5.29/src/main.cpp",
 		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_5b_PeterMinuitProblem/peterMinuit.h",
 		"/home/frankzappasmustache/code/courses/tests_examples/My-scripts/Kieran Python IT121 Lab MIDTERM EXAM Study Calculator.py",
 		"/home/frankzappasmustache/code/courses/CS131_CPP/CS131.sublime-project",
-		"/home/frankzappasmustache/code/courses/CS131_CPP/CS131_CPP_laptop.sublime-project",
 		"/home/frankzappasmustache/code/courses/CS131_CPP/.gitignore",
 		"/home/frankzappasmustache/code/courses/CS131_CPP/CS131_CPP_laptop.sublime-workspace.orig",
 		"/home/frankzappasmustache/code/courses/CS131_CPP/CS131_CPP_laptop.sublime-workspace",
 		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_5a_smallestValue/avgOfIntegers",
-		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_6a_parkingCharges/parkingCharges.h",
-		"/home/frankzappasmustache/code/courses/tests_examples/Deitel/Chapter_06/exercises/6.12/src/main.cpp",
-		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_6a_parkingCharges/parkingCharges.cpp",
 		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_4b_retailCalculator/retailCalculator.h",
 		"/home/frankzappasmustache/code/courses/tests_examples/Dustins_tests/parkingCharges.cpp",
 		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_7_sieveOfEratosthenes/sieveOfEratosthenes.md",
-		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_7_sieveOfEratosthenes/sieveOfEratosthenes.cpp",
-		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_7_sieveOfEratosthenes/sieveOfEratosthenes.h",
 		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_6a_parkingCharges/parkingCharges.md",
 		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_6b_recursiveExponentiation/recursiveExponentiation.md",
-		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_6b_recursiveExponentiation/recursiveExponentiation.cpp",
-		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_6b_recursiveExponentiation/recursiveExponentiation.h",
 		"/home/frankzappasmustache/code/courses/tests_examples/Deitel_Cplusplus_Practice/Chapter 03 & 04 Exercises/Ex 4.19/findtheTwoLargestNumbrs.cpp",
 		"/home/frankzappasmustache/code/courses/tests_examples/Deitel_Cplusplus_Practice/Chapter 03 & 04 Exercises/Ex 4.17/findtheLargest.cpp",
 		"/home/frankzappasmustache/code/courses/tests_examples/Deitel_Cplusplus_Practice/Chapter 03 & 04 Exercises/Ex 4.17/findtheLargest.hpp",
@@ -269,9 +248,7 @@
 		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_5a_smallestValue/smallestValue.md",
 		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_4a_gasMileage/gasMileageCalc.cpp",
 		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_5b_PeterMinuitProblem/PeterMinuitProblem.md",
-		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_2_arithmetic/arithmetic.cpp",
 		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_4a_gasMileage/main .cpp",
-		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_3a_heartRate/HeartRates.h",
 		"/home/frankzappasmustache/code/courses/backups/CS131/assignments/Lab_4b_retailCalculator/retailCalculatorBackup1.h",
 		"/home/frankzappasmustache/code/courses/backups/CS131/assignments/Lab_4b_retailCalculator/retailCalculatorBackup1.cpp",
 		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_3_invoice/Invoice.cpp",
@@ -341,8 +318,7 @@
 		"/home/frankzappasmustache/.config/sublime-text-3/Packages/pyyaml/st3/yaml/__init__.py",
 		"/home/frankzappasmustache/.config/sublime-text-3/Packages/sublime_lib/.flake8",
 		"/home/frankzappasmustache/.config/sublime-text-3/Packages/Pylinter/Pylinter.sublime-settings",
-		"/home/frankzappasmustache/.config/sublime-text-3/Packages/Pylinter/pylinter.py",
-		"/home/frankzappasmustache/.config/sublime-text-3/Packages/User/Python.sublime-settings"
+		"/home/frankzappasmustache/.config/sublime-text-3/Packages/Pylinter/pylinter.py"
 	],
 	"find":
 	{
@@ -586,7 +562,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 251.0,
+	"side_bar_width": 240.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

@@ -9,24 +9,36 @@
     The class definition of the parkingCharges class,
     and its data members.
 */
-#ifndef retailCalculator_h
-#define retailCalculator_h
+#ifndef parkingCharges_h
+#define parkingCharges_h
 
 class parkingCharges {
  public:
-  double parkingCharges(double start, double min, double afterThree,
-                        double max) {
-    startingHours = start;
-    feeMin = min;
-    excessOfThree = afterThree;
-    feeMax = max;
+  parkingCharges()
+  {
+
   }
 
+  double calculateCharges(double hours, double charge) {
+    int i{0};
+    chargeHours = hours;
+    finalCharge = charge;
+    const double STARTING_HOURS = 3.0f;
+    const double FEEMIN = 2.0f;
+    const double EXCESS_OF_THREE = 0.5f;
+    const double FEEMAX = 10.0f;
+
+    if (i >= 24) {
+      return FEEMAX;
+    } else if (i <= STARTING_HOURS) {
+      return FEEMIN;
+    } else {
+      return charge;
+    }
+  }
  private:
-  double startingHours = 3.0f;
-  double feeMin = 2.0f;
-  double excessOfThree = 0.5f;
-  double feeMax = 10.0f;
+    double finalCharge{0};
+    double chargeHours{};
 };
 
 #endif
