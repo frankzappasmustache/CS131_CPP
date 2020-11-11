@@ -19,26 +19,18 @@ class parkingCharges {
 
   }
 
-  double calculateCharges(double hours, double charge) {
-    int i{0};
-    chargeHours = hours;
+  double calculateCharges(int i = 0, double charge, double chargeHours[0]) {
     finalCharge = charge;
-    const double STARTING_HOURS = 3.0f;
-    const double FEEMIN = 2.0f;
-    const double EXCESS_OF_THREE = 0.5f;
-    const double FEEMAX = 10.0f;
-
-    if (i >= 24) {
-      return FEEMAX;
-    } else if (i <= STARTING_HOURS) {
-      return FEEMIN;
+    if (chargeHours[i] >= 3) {
+      charge = 2.00;
     } else {
-      return charge;
+      charge = 2.00 + (hours - 3.0) * 0.50;
     }
+    return charge;
   }
  private:
     double finalCharge{0};
-    double chargeHours{};
+    double chargeHours[3] = {0, 0, 0};
 };
 
 #endif

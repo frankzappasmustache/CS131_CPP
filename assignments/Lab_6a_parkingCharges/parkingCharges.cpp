@@ -17,45 +17,37 @@
 using namespace std;
 
 // function main begins program execution
-int main() {
+int
+main()
+{
   parkingCharges parkingCalc;
 
   // Declarations
   double calculateCharges(double);
-  double time1{0.0f};  // double first customer time
-  double time2{0.0f};  // double second customer time
-  double time3{0.0f};  // double third customer time
-  double hours{[time1,time2,time3]};
+  double time1{ 0.0f }; // double first customer time
+  double time2{ 0.0f }; // double second customer time
+  double time3{ 0.0f }; // double third customer time
+  double hours[3] = { time1, time2, time3 };
   int arrSize = sizeof(hours);
-  const double STARTING_HOURS = 3.0f;
-  const double FEEMIN = 2.0f;
-  const double EXCESS_OF_THREE = 0.5f;
-  const double FEEMAX = 10.0f;
-  int i{0};
-  double charge = FEEMIN + (hours[i] - STARTING_HOURS) * EXCESS_OF_THREE;
-  double dayTotal{0};
+  double charge{ 0 };
+  double dayTotal{ 0 };
 
   cout << "Parking Charge Calculator\n" << endl;
   cout << "=========================\n" << endl;
 
-  for(int i = 0; i < 2; i++) {
+  for (int i = 0; i < 2; i++) {
     cout << "How many hours was the customer parked?\n";
     cin >> hours[i];
-    dayTotal+= parkingCalc.calculateCharges(hours[i], charge);
-    return hours[i];
-    continue;
-    } return dayTotal;
 
     cout << "Car" << setw(10) << "Hours" << setw(10) << "Charge" << endl;
     cout << "====================" << endl;
     cout << setprecision(2);
-    cout << "1" << setw(3)
-    << hours[i] << setw(6)
-    << "$" << parkingCalc.calculateCharges(hours[i], charge) << endl;
+    cout << "1" << setw(3) << hours[i] << setw(6) << "$"
+         << parkingCalc.calculateCharges(hours[i], charge) << endl;
+  }
+  return dayTotal;
 
-    dayTotal+=
-        cout << "TOTAL" << setw(13)
-        << hours[0] + hours[1] + hours[2] << setw(10)
-        << "$" << dayTotal << endl;
+  cout << "TOTAL" << setw(13) << hours[0] + hours[1] + hours[2]
+                   << setw(10) << "$" << dayTotal << endl;
   return 0;
 }

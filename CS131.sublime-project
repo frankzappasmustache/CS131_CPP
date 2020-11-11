@@ -1,28 +1,63 @@
 {
-	"folders": [
+    "folders": [
     {
-      "name": "CS131_CPP",
-	    "path": "/home/frankzappasmustache/code/courses/CS131_CPP",
-      "file_exclude_patterns":
-      [
-        "*.vcproj",
-        "*.vcxproj",
-        "*.sln",
-        "*.gitignore",
-        "*.gitmodules",
-        "*.vcxproj.*",
-      ],
-      "folder_exclude_patterns":
-      [
-        "build",
-        "out",
-        "third_party",
-        ".git",
-      ],
+        "file_exclude_patterns": [
+            "*.vcproj",
+            "*.vcxproj",
+            "*.sln",
+            "*.gitignore",
+            "*.gitmodules",
+            "*.vcxproj.*"
+        ],
+        "folder_exclude_patterns": [
+            "build",
+            "out",
+            "third_party",
+            ".git"
+        ],
+        "name": "CS131_CPP",
+        "path": "/home/frankzappasmustache/code/courses/CS131_CPP"
     },
     {
         "name": "Generated Files",
-        "path": "src/out/Debug/gen",
+        "path": "src/out/Debug/gen"
     },
-  ],
+    {
+        "name": "Test & Examples",
+        "path": "/home/frankzappasmustache/code/courses/test_files"
+    }],
+    "settings":
+    {
+        "debug.configurations": [
+        {
+            "sublime_build":
+            {
+                "cmd": "clang++ -std=c++14 -g main.cpp",
+                "shell": true,
+            },
+            "args": [],
+            "type": "lldb",
+            "cwd": "${project_path}",
+            "request": "launch",
+            "program": "${project_path}/a.out",
+            "name": "Launch (Compile)",
+        },
+        {
+            "args": [],
+            "type": "lldb",
+            "cwd": "${project_path}",
+            "request": "launch",
+            "terminal": "external",
+            "program": "${project_path}/a.out",
+            "name": "Launch (external)",
+        },
+        {
+            "args": [],
+            "type": "lldb",
+            "cwd": "${project_path}",
+            "request": "launch",
+            "program": "${project_path}/a.out",
+            "name": "Launch",
+        }, ]
+    }
 }
