@@ -11,8 +11,13 @@
 */
 #include "parkingCharges.h"
 
-#include <cmath>
+#include <cstdio>
 #include <iomanip>
+#include <cmath>
+#include <string>
+#include <cstring>
+#include <cstddef>
+#include <valarray>
 #include <iostream>
 using namespace std;
 
@@ -23,31 +28,32 @@ main()
   parkingCharges parkingCalc;
 
   // Declarations
-  double calculateCharges(double);
-  double time1{ 0.0f }; // double first customer time
-  double time2{ 0.0f }; // double second customer time
-  double time3{ 0.0f }; // double third customer time
-  double hours[3] = { time1, time2, time3 };
-  int arrSize = sizeof(hours);
+  double time1;  // double first customer time
+  double time2;  // double second customer time
+  double time3;  // double third customer time
+  double chargeHours[3] = {time1, time2, time3};
   double charge{ 0 };
   double dayTotal{ 0 };
 
   cout << "Parking Charge Calculator\n" << endl;
   cout << "=========================\n" << endl;
 
-  for (int i = 0; i < 2; i++) {
+  for (int i = 0; i < 3; i++) {
+    chargeHours[i] = 0;
+    for (int x = 0; x < 3; ++x) {
     cout << "How many hours was the customer parked?\n";
-    cin >> hours[i];
+    cin >> chargeHours[x];
 
     cout << "Car" << setw(10) << "Hours" << setw(10) << "Charge" << endl;
     cout << "====================" << endl;
     cout << setprecision(2);
-    cout << "1" << setw(3) << hours[i] << setw(6) << "$"
-         << parkingCalc.calculateCharges(hours[i], charge) << endl;
+    cout << "1" << setw(3) << chargeHours[x] << setw(6) << "$"
+         << parkingCalc.calculateCharges(chargeHours) << endl;
+       }
   }
   return dayTotal;
 
-  cout << "TOTAL" << setw(13) << hours[0] + hours[1] + hours[2]
+  cout << "TOTAL" << setw(13) <<chargeHours[0] + chargeHours[1] + chargeHours[2]
                    << setw(10) << "$" << dayTotal << endl;
   return 0;
 }

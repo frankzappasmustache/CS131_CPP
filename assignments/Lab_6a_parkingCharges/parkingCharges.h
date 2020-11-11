@@ -12,25 +12,37 @@
 #ifndef parkingCharges_h
 #define parkingCharges_h
 
+#include <cmath>
+#include <cstddef>
+#include <cstdio>
+#include <cstring>
+#include <iomanip>
+#include <iostream>
+#include <string>
+#include <valarray>
+
 class parkingCharges {
  public:
-  parkingCharges()
-  {
+  parkingCharges() {}
 
-  }
-
-  double calculateCharges(int i = 0, double charge, double chargeHours[0]) {
-    finalCharge = charge;
-    if (chargeHours[i] >= 3) {
-      charge = 2.00;
-    } else {
-      charge = 2.00 + (hours - 3.0) * 0.50;
+  double calculateCharges(double chargeHours[0]) {
+    for (int i = 0; i < 3; i++) {
+      chargeHours[i] = 0;
+        if (double chargeHours[] >= 3) {
+          charge = 2.00;
+        } else if (chargeHours[] >= 24) {
+          charge = 10.00;
+        } else {
+          charge = 2.00 + (chargeHours[] - 3.0) * 0.50;
+        }
+        return charge;
+      }
     }
-    return charge;
-  }
+
  private:
-    double finalCharge{0};
-    double chargeHours[3] = {0, 0, 0};
+  double charge{0};
+  static const int arraySize = 3;
+  double chargeHours[arraySize];
 };
 
 #endif

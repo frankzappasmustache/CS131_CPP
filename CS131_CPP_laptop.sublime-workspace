@@ -88,6 +88,10 @@
 		"selected_items":
 		[
 			[
+				"pack",
+				"Package Control: List Packages"
+			],
+			[
 				"pac",
 				"Package Control: Install Package"
 			],
@@ -102,10 +106,6 @@
 			[
 				"book",
 				"SublimeBookmarks: Show All Bookmarks "
-			],
-			[
-				"pack",
-				"Package Control: Install Package"
 			],
 			[
 				"clan",
@@ -191,6 +191,7 @@
 	],
 	"file_history":
 	[
+		"/home/frankzappasmustache/code/courses/CS131_CPP/CS131_CPP_laptop.sublime-project",
 		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_6a_parkingCharges/parkingCharges.h",
 		"/home/frankzappasmustache/code/courses/tests_examples/Deitel/Chapter_06/exercises/6.12/src/main.cpp",
 		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_3a_heartRate/HeartRates.cpp",
@@ -198,7 +199,6 @@
 		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_6a_parkingCharges/parkingCharges.cpp",
 		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_3a_heartRate/HeartRates.h",
 		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_2_arithmetic/arithmetic.cpp",
-		"/home/frankzappasmustache/code/courses/CS131_CPP/CS131_CPP_laptop.sublime-project",
 		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_7_sieveOfEratosthenes/sieveOfEratosthenes.h",
 		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_7_sieveOfEratosthenes/sieveOfEratosthenes.cpp",
 		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_6b_recursiveExponentiation/recursiveExponentiation.h",
