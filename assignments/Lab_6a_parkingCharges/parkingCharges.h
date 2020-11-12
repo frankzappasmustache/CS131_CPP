@@ -21,28 +21,37 @@
 #include <string>
 #include <valarray>
 
-class parkingCharges {
- public:
-  parkingCharges() {}
+class parkingCharges
+{
+public:
+    parkingCharges() {}
 
-  double calculateCharges(double chargeHours[0]) {
-    for (int i = 0; i < 3; i++) {
-      chargeHours[i] = 0;
-        if (double chargeHours[] >= 3) {
-          charge = 2.00;
-        } else if (chargeHours[] >= 24) {
-          charge = 10.00;
-        } else {
-          charge = 2.00 + (chargeHours[] - 3.0) * 0.50;
+    double calculateCharges(double chargeHours[0], double customerCharge)
+    {
+        charge = customerCharge;
+        for (int i = 0; i < 3; i++)
+        {
+            chargeHours = 0;
+            if (chargeHours[i] >= 3)
+            {
+                customerCharge = 2.00;
+            }
+            else if (chargeHours[i] >= 24)
+            {
+                customerCharge = 10.00;
+            }
+            else
+            {
+                customerCharge = 2.00 + (chargeHours[i] - 3.0) * 0.50;
+            }
+            return customerCharge;
         }
-        return charge;
-      }
     }
 
- private:
-  double charge{0};
-  static const int arraySize = 3;
-  double chargeHours[arraySize];
+private:
+    double charge{0};
+    static const int arraySize = 3;
+    double chargeHours[arraySize];
 };
 
 #endif

@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "..\\test_files"
+		}
+	],
+	"settings": {
+		"clang.cxxflags": [
+			"-std=c++14"
+		],
+		"clang.executable": "\"C:\\Program Files\\LLVM\\bin\\clang.exe\""
+	}
+}
