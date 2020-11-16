@@ -9,49 +9,43 @@
     The class definition of the parkingCharges class,
     and its data members.
 */
-#ifndef parkingCharges_h
-#define parkingCharges_h
+#ifndef PARKINGCHARGES_H_
+#define PARKINGCHARGES_H_
 
-#include <cmath>
-#include <cstddef>
-#include <cstdio>
-#include <cstring>
+#include <math.h>
+#include <stddef.h>
+#include <stdio.h>
 #include <iomanip>
 #include <iostream>
 #include <string>
 #include <valarray>
 
-class parkingCharges
-{
-public:
-    parkingCharges() {}
+class parkingCharges {
+ public:
+  parkingCharges(double time1, double time2, double time3, double hours[]) {
+    tOne = time1;
+    tTwo = time2;
+    tThree = time3;
+    chargeHours[3] = hours[3];
+  }
 
-    double calculateCharges(double chargeHours[0], double customerCharge)
-    {
-        charge = customerCharge;
-        for (int i = 0; i < 3; i++)
-        {
-            chargeHours = 0;
-            if (chargeHours[i] >= 3)
-            {
-                customerCharge = 2.00;
-            }
-            else if (chargeHours[i] >= 24)
-            {
-                customerCharge = 10.00;
-            }
-            else
-            {
-                customerCharge = 2.00 + (chargeHours[i] - 3.0) * 0.50;
-            }
-            return customerCharge;
-        }
+  inline double calculateCharges(int i) {
+    double customerCharge{0.0};
+    if (i >= 3) {
+      customerCharge = 2.00;
+    } else if (i >= 24) {
+      customerCharge = 10.00;
+    } else {
+      customerCharge = 2.00 + (chargeHours[i] - 3.0) * 0.50;
     }
+    return customerCharge;
+  }
 
-private:
-    double charge{0};
-    static const int arraySize = 3;
-    double chargeHours[arraySize];
+ private:
+      double chargeHours[];
+      double tOne{0.0};
+      double tTwo{0.0};
+      double tThree{0.0};
 };
 
 #endif

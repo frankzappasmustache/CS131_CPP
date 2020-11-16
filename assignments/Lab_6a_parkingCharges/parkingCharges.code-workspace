@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_6a_parkingCharges"
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"iostream": "cpp",
+			"iomanip": "cpp",
+			"valarray": "cpp"
+		}
+	}
+}

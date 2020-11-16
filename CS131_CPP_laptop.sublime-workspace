@@ -7,8 +7,26 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "assignments/Lab_6b_recursiveExponentiation/recursiveExponentiation.cpp",
+			"settings":
+			{
+				"buffer_size": 1353,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "assignments/Lab_6b_recursiveExponentiation/recursiveExponentiation.h",
+			"settings":
+			{
+				"buffer_size": 940,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
 	],
-	"build_system": "Packages/User/C++.sublime-build",
+	"build_system": "Packages/C++ & C Single File Builder - Minghang Yang/C++ Builder-Minghang Yang.sublime-build",
 	"build_system_choices":
 	[
 		[
@@ -78,9 +96,25 @@
 				"Packages/User/C++.sublime-build",
 				"Run in Terminal"
 			]
+		],
+		[
+			[
+				[
+					"Packages/User/C++14.sublime-build",
+					""
+				],
+				[
+					"Packages/User/C++14.sublime-build",
+					"Run"
+				]
+			],
+			[
+				"Packages/User/C++14.sublime-build",
+				"Run"
+			]
 		]
 	],
-	"build_varint": "",
+	"build_varint": "Build and Run",
 	"command_palette":
 	{
 		"height": 0.0,
@@ -88,12 +122,12 @@
 		"selected_items":
 		[
 			[
-				"pack",
-				"Package Control: List Packages"
+				"pac",
+				"Package Control: Disable Package"
 			],
 			[
-				"pac",
-				"Package Control: Install Package"
+				"pack",
+				"Package Control: List Packages"
 			],
 			[
 				"packa",
@@ -184,32 +218,64 @@
 	"expanded_folders":
 	[
 		"/home/frankzappasmustache/code/courses/CS131_CPP",
+		"/home/frankzappasmustache/code/courses/CS131_CPP/.vscode",
 		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments",
-		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_4b_retailCalculator",
-		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_5a_smallestValue",
-		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_6a_parkingCharges"
+		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_3a_heartRate",
+		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_5b_PeterMinuitProblem",
+		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_6a_parkingCharges",
+		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_6b_recursiveExponentiation",
+		"/home/frankzappasmustache/code/courses/CS131_CPP/src/out/Debug/gen",
+		"/home/frankzappasmustache/code/courses/tests_examples",
+		"/home/frankzappasmustache/code/courses/tests_examples/Deitel",
+		"/home/frankzappasmustache/code/courses/tests_examples/Deitel/Chapter_06",
+		"/home/frankzappasmustache/code/courses/tests_examples/Deitel/Chapter_06/exercises",
+		"/home/frankzappasmustache/code/courses/tests_examples/Deitel/Chapter_06/exercises/6.36",
+		"/home/frankzappasmustache/code/courses/tests_examples/Deitel/Chapter_06/exercises/6.36/src"
 	],
 	"file_history":
 	[
-		"/home/frankzappasmustache/code/courses/CS131_CPP/CS131_CPP_laptop.sublime-project",
 		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_6a_parkingCharges/parkingCharges.h",
-		"/home/frankzappasmustache/code/courses/tests_examples/Deitel/Chapter_06/exercises/6.12/src/main.cpp",
-		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_3a_heartRate/HeartRates.cpp",
-		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_4b_retailCalculator/retailCalculator.cpp",
 		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_6a_parkingCharges/parkingCharges.cpp",
 		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_3a_heartRate/HeartRates.h",
+		"/home/frankzappasmustache/code/courses/tests_examples/Deitel/Chapter_06/exercises/6.36/src/main.cpp",
+		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_3a_heartRate/HeartRates.cpp",
+		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_5b_PeterMinuitProblem/peterMinuit.cpp",
+		"/home/frankzappasmustache/code/courses/tests_examples/Deitel_Cplusplus_Practice/Chapter 06 Exercises/Ex 6.36/RecursiveExponentiation.cpp",
+		"/home/frankzappasmustache/code/courses/tests_examples/Deitel_Cplusplus_Practice/Chapter 06 Exercises/Ex 6.36/main.cpp",
+		"/home/frankzappasmustache/code/courses/tests_examples/Deitel_Cplusplus_Practice/Chapter 06 Exercises/Ex 6.36/RecursiveExponentiation.hpp",
+		"/home/frankzappasmustache/code/courses/tests_examples/Deitel/Chapter_06/exercises/6.18/.vscode/tasks.json",
+		"/home/frankzappasmustache/code/courses/tests_examples/Deitel_Cplusplus_Practice/Chapter 06 Exercises/Ex 6.18/Exponentiation.cpp",
+		"/home/frankzappasmustache/code/courses/tests_examples/Deitel_Cplusplus_Practice/Chapter 06 Exercises/Ex 6.18/Exponentiation.hpp",
+		"/home/frankzappasmustache/code/courses/tests_examples/Deitel_Cplusplus_Practice/Chapter 06 Exercises/Ex 6.18/main.cpp",
+		"/home/frankzappasmustache/code/courses/tests_examples/Deitel/Chapter_06/exercises/6.18/.vscode/launch.json",
+		"/home/frankzappasmustache/code/courses/tests_examples/Deitel_Cplusplus_Practice/Chapter 06 Exercises/Ex 6.12/main.cpp",
+		"/home/frankzappasmustache/code/courses/tests_examples/Deitel_Cplusplus_Practice/Chapter 06 Exercises/Ex 6.12/ParkingCharges.hpp",
+		"/home/frankzappasmustache/code/courses/tests_examples/Deitel_Cplusplus_Practice/Chapter 06 Exercises/Ex 6.12/ParkingCharges.cpp",
+		"/home/frankzappasmustache/code/courses/tests_examples/Deitel/Chapter_06/exercises/6.12/src/main.cpp",
+		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_3b_invoice/Invoice.cpp",
+		"/home/frankzappasmustache/.config/sublime-text-3/Packages/User/C++14.sublime-build",
+		"/home/frankzappasmustache/.config/sublime-text-3/Packages/C++11/C++11.sublime-settings",
+		"/home/frankzappasmustache/.config/sublime-text-3/Packages/Clang Format/clang_format.sublime-settings",
+		"/home/frankzappasmustache/.config/sublime-text-3/Packages/User/Terminal.sublime-settings",
+		"/home/frankzappasmustache/.config/sublime-text-3/Packages/C++NamespaceTool/C++NamespaceTool.sublime-settings",
+		"/home/frankzappasmustache/.config/sublime-text-3/Packages/User/CppBuilder.sublime-settings",
+		"/home/frankzappasmustache/.config/sublime-text-3/Packages/CppBuilder/CppBuilder.sublime-settings",
+		"/home/frankzappasmustache/.config/sublime-text-3/Packages/User/C++.sublime-build",
+		"/home/frankzappasmustache/code/courses/CS131_CPP/CS131_CPP_laptop.sublime-project",
+		"/tmp/kite_tutorial.py",
+		"/home/frankzappasmustache/code/courses/tests_examples/Dustins_tests/parkingCharges_11_11.h",
+		"/home/frankzappasmustache/code/courses/tests_examples/Dustins_tests/parkingCharges_11_11.cpp",
+		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_4b_retailCalculator/retailCalculator.cpp",
 		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_2_arithmetic/arithmetic.cpp",
 		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_7_sieveOfEratosthenes/sieveOfEratosthenes.h",
 		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_7_sieveOfEratosthenes/sieveOfEratosthenes.cpp",
 		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_6b_recursiveExponentiation/recursiveExponentiation.h",
 		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_6b_recursiveExponentiation/recursiveExponentiation.cpp",
-		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_5b_PeterMinuitProblem/peterMinuit.cpp",
 		"/home/frankzappasmustache/code/courses/test.cpp",
 		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_5a_smallestValue/avgOfIntegers.h",
 		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_5a_smallestValue/avgOfIntegers.cpp",
 		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_4a_gasMileage/gasMileageCalc.h",
 		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_3b_invoice/Invoice.h",
-		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_3b_invoice/Invoice.cpp",
 		"/home/frankzappasmustache/code/courses/tests_examples/Deitel/Chapter_05/exercises/5.06/src/main.cpp",
 		"/home/frankzappasmustache/code/courses/tests_examples/Deitel/Chapter_05/exercises/5.08/src/main.cpp",
 		"/home/frankzappasmustache/code/courses/tests_examples/Deitel/Chapter_05/exercises/5.09/src/main.cpp",
@@ -270,14 +336,11 @@
 		"/home/frankzappasmustache/code/courses/IT121_Python/IT121.sublime-project",
 		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_3_invoice/Invoice.h",
 		"/home/frankzappasmustache/.bashrc",
-		"/home/frankzappasmustache/.config/sublime-text-3/Packages/User/C++.sublime-build",
 		"/home/frankzappasmustache/.config/sublime-text-3/Packages/User/cout_oneline.sublime-snippet",
 		"/home/frankzappasmustache/.config/sublime-text-3/Packages/C++11/messages/install.txt",
 		"/home/frankzappasmustache/.config/sublime-text-3/Packages/User/C++11.sublime-settings",
-		"/home/frankzappasmustache/.config/sublime-text-3/Packages/C++11/C++11.sublime-settings",
 		"/home/frankzappasmustache/.config/sublime-text-3/Packages/SublimeLinter-gcc/miscellaneous/demo.cpp",
 		"/home/frankzappasmustache/.config/sublime-text-3/Packages/C++ Classhelper/C++ Classhelper.sublime-settings",
-		"/home/frankzappasmustache/.config/sublime-text-3/Packages/C++NamespaceTool/C++NamespaceTool.sublime-settings",
 		"/home/frankzappasmustache/code/courses/Lab3CPP_Example3.cpp",
 		"/home/frankzappasmustache/code/courses/Lab3CPP_Example3_main.cpp",
 		"/home/frankzappasmustache/code/courses/Lab3CPP_Example4.cpp",
@@ -298,27 +361,7 @@
 		"/home/frankzappasmustache/code/courses/Lab3CPP_Example2_Driver.h",
 		"/home/frankzappasmustache/code/courses/CS131_CPP/CS131_CPP_laptop_BACKUP_4961.sublime-workspace",
 		"/home/frankzappasmustache/code/courses/CS131_CPP/CS131_CPP_laptop_BASE_4961.sublime-workspace",
-		"/home/frankzappasmustache/code/courses/CS131_CPP/CS131_CPP_laptop_LOCAL_4961.sublime-workspace",
-		"/home/frankzappasmustache/code/courses/CS131_CPP/CS131_CPP_laptop_REMOTE_4961.sublime-workspace",
-		"/home/frankzappasmustache/Programs/alienfx_aw13r3/README.md",
-		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/arithmetic/circleGeometry.cpp",
-		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/updateProfile/updateProfile.md",
-		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/arithmetic/arithmetic.md",
-		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/multiplier/arithmetic.cpp",
-		"/home/frankzappasmustache/code/courses/CS131_CPP/cmake-build-debug/.gitignore",
-		"/home/frankzappasmustache/code/courses/CS131_CPP/.idea/.gitignore",
-		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/multiplier/multiplier.cpp",
-		"/home/frankzappasmustache/.config/sublime-text-3/Packages/Package Syncing/Package Syncing.sublime-settings",
-		"/home/frankzappasmustache/code/courses/IT121_Python/assignments/multiplier/multiplier.py",
-		"/home/frankzappasmustache/code/school/python/hello.py",
-		"/home/frankzappasmustache/Documents/Courses/CS 131 - Introduction to Computer Science C++/canvas_biography.txt",
-		"/home/frankzappasmustache/.config/sublime-text-3/Packages/User/Package Control.sublime-settings",
-		"/home/frankzappasmustache/.config/sublime-text-3/Packages/Package Control/Package Control.sublime-settings",
-		"/home/frankzappasmustache/.config/sublime-text-3/Packages/User/SublimeLinter.sublime-settings",
-		"/home/frankzappasmustache/.config/sublime-text-3/Packages/pyyaml/st3/yaml/__init__.py",
-		"/home/frankzappasmustache/.config/sublime-text-3/Packages/sublime_lib/.flake8",
-		"/home/frankzappasmustache/.config/sublime-text-3/Packages/Pylinter/Pylinter.sublime-settings",
-		"/home/frankzappasmustache/.config/sublime-text-3/Packages/Pylinter/pylinter.py"
+		"/home/frankzappasmustache/code/courses/CS131_CPP/CS131_CPP_laptop_LOCAL_4961.sublime-workspace"
 	],
 	"find":
 	{
@@ -336,6 +379,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"endif",
+			"double",
 			"\\sand$",
 			" and\\n",
 			" and (",
@@ -432,19 +477,99 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "assignments/Lab_6b_recursiveExponentiation/recursiveExponentiation.cpp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1353,
+						"regions":
+						{
+							"better_bookmarks":
+							{
+								"flags": 144,
+								"icon": "Packages/Theme - Default/common/bookmark.png",
+								"regions":
+								[
+								],
+								"scope": "string"
+							}
+						},
+						"selection":
+						[
+							[
+								1280,
+								1280
+							]
+						],
+						"settings":
+						{
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/C++11/C++11.tmLanguage",
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 118.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		},
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 1,
+					"file": "assignments/Lab_6b_recursiveExponentiation/recursiveExponentiation.h",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 940,
+						"regions":
+						{
+							"better_bookmarks":
+							{
+								"flags": 144,
+								"icon": "Packages/Theme - Default/common/bookmark.png",
+								"regions":
+								[
+								],
+								"scope": "string"
+							}
+						},
+						"selection":
+						[
+							[
+								498,
+								498
+							]
+						],
+						"settings":
+						{
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/C++11/C++11.tmLanguage",
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 195.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
 			]
 		}
 	],
 	"incremental_find":
 	{
-		"height": 31.0
+		"height": 52.0
 	},
 	"input":
 	{
@@ -490,7 +615,7 @@
 	},
 	"output.SublimeLinter":
 	{
-		"height": 328.0
+		"height": 178.0
 	},
 	"output.SublimeLinter Messages":
 	{
@@ -554,7 +679,7 @@
 		],
 		"width": 0.0
 	},
-	"selected_group": 1,
+	"selected_group": 0,
 	"settings":
 	{
 	},
@@ -562,7 +687,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 240.0,
+	"side_bar_width": 455.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

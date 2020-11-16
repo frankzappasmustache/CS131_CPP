@@ -1,4 +1,13 @@
 {
+	"build_systems":
+	[
+		{
+			"file_regex": "^[ ]*File \"(...*?)\", line ([0-9]*)",
+			"name": "Anaconda Python Builder",
+			"selector": "source.python",
+			"shell_cmd": "\"python\" -u \"$file\""
+		}
+	],
 	"folders":
 	[
 		{
@@ -34,35 +43,46 @@
 	{
 		"debug.configurations":
 		[
-            {
-                "sublime_build": {
-                    "cmd": "clang++ -std=c++14 -g main.cpp",
-                    "shell": true,
-                },
-                "args": [],
-                "type": "lldb",
-                "cwd": "${project_path}",
-                "request": "launch",
-                "program": "${project_path}/a.out",
-                "name": "Launch (Compile)",
-            },
-            {
-                "args": [],
-                "type": "lldb",
-                "cwd": "${project_path}",
-                "request": "launch",
-                "terminal": "external",
-                "program": "${project_path}/a.out",
-                "name": "Launch (external)",
-            },
-            {
-                "args": [],
-                "type": "lldb",
-                "cwd": "${project_path}",
-                "request": "launch",
-                "program": "${project_path}/a.out",
-                "name": "Launch",
-            },
+			{
+				"args":
+				[
+				],
+				"cwd": "${file_path}",
+				"name": "Launch (Compile)",
+				"program": "${file}",
+				"request": "launch",
+				"sublime_build":
+				{
+					"cmd": [
+						"clang++ -std=c++14",
+						"-g",
+						"${file}"
+					],
+					"shell": true
+				},
+				"type": "lldb"
+			},
+			{
+				"args":
+				[
+				],
+				"cwd": "${file_path}",
+				"name": "Launch (external)",
+				"program": "${file}",
+				"request": "launch",
+				"terminal": "external",
+				"type": "lldb"
+			},
+			{
+				"args":
+				[
+				],
+				"cwd": "${file_path}",
+				"name": "Launch",
+				"program": "${file}",
+				"request": "launch",
+				"type": "lldb"
+			}
 		]
 	}
 }
