@@ -22,30 +22,22 @@
 
 class parkingCharges {
  public:
-  parkingCharges(double time1, double time2, double time3, double hours[]) {
-    tOne = time1;
-    tTwo = time2;
-    tThree = time3;
-    chargeHours[3] = hours[3];
-  }
+  parkingCharges() {}
 
-  inline double calculateCharges(int i) {
-    double customerCharge{0.0};
-    if (i >= 3) {
-      customerCharge = 2.00;
-    } else if (i >= 24) {
-      customerCharge = 10.00;
-    } else {
-      customerCharge = 2.00 + (chargeHours[i] - 3.0) * 0.50;
+  double calculateCharges(float hours) {
+    chargeHours = hours;
+    if (hours <= 3) {
+      charge = 2.00;
+    } else if(hours >= 24) {
+      charge = 10.00;
+    } else if(hours <= 24 && hours >= 3) {
+      charge = 2.00 + (hours - 3.00) * 0.50;
     }
-    return customerCharge;
+    return charge;
   }
 
- private:
-      double chargeHours[];
-      double tOne{0.0};
-      double tTwo{0.0};
-      double tThree{0.0};
-};
-
+private:
+    float chargeHours{0.00};
+    float charge{0.00};
+  };
 #endif

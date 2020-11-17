@@ -25,27 +25,41 @@ using namespace std;
 // function main begins program execution
 int main() {
   parkingCharges parkingCalc;
-  parkingCalc(double time1, double time2, double time3, double hours[]) {
-  double time1{0.0f};  // double first customer time
-  double time2{0.0f};  // double second customer time
-  double time3{0.0f};  // double third customer time
-  double hours[3]{time1, time2, time3};
-}
   // Declarations
+  float time1{0.00};  // double first customer time
+  float time2{0.00};  // double second customer time
+  float time3{0.00};  // double third customer time
+  float hours{0.0};
 
-  cout << "Parking Charge Calculator\n" << endl;
-  cout << "=========================\n" << endl;
-  for (int i = 0; i < 3; i++) {
-    cout << "How many hours was the customer parked?\n";
-    cin >> hours[i];
+  cout << "------------Parking Charge Calculator----------\n" << endl;
+  cout << "=======================================================\n\n" << endl;
 
-    cout << "Car" << setw(10) << "Hours" << setw(10) << "Charge" << endl;
-    cout << "====================" << endl;
-    cout << setprecision(2);
-    cout << "1" << setw(3) << i << setw(6) << "$"
-         << parkingCalc.calculateCharges(i) << endl;
+  cout << "Car" << "\t\t\t" << "Hours" << "\t\t\t" << "Charge" << endl;
+  cout << "=======================================================" << endl;
+  cout << setiosflags(ios::fixed | ios::showpoint) << setprecision(2);
+
+  for (int i = 1; i < 4; i++) {
+    cout << "How many hours was customer " << i << " parked?: ";
+    cin >> hours;
+
+    if (i == 1) {
+      time1 = hours;
+      cout << "\n1" << "\t\t\t" << time1 << "\t\t\t" << "$"
+           << parkingCalc.calculateCharges(time1) << "\n" << endl;
+    } else if (i == 2) {
+      time2 = hours;
+      cout << "\n2" << "\t\t\t" << time2 << "\t\t\t" << "$"
+           << parkingCalc.calculateCharges(time2) << "\n" << endl;
+    } else {
+      time3 = hours;
+      cout << "\n3" << "\t\t\t" << time3 << "\t\t\t" << "$"
+           << parkingCalc.calculateCharges(time3) << "\n" << endl;
+    }
   }
-  cout << "TOTAL" << setw(13) << "$" << hours[0] + hours[1] + hours[2]
+  cout << "\nTOTAL" << "\t\t\t\t\t\t" << "$"
+       << parkingCalc.calculateCharges(time1) +
+              parkingCalc.calculateCharges(time2) +
+              parkingCalc.calculateCharges(time3)
        << setw(10) << endl;
   return 0;
 };
