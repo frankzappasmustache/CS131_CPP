@@ -5,7 +5,7 @@
     File Name: recursiveExponentiation.h
     Author: Dustin McClure
     Lab: Lab 6b - Recursive Exponentiation
-    Modified Date: 11/07/2020
+    Modified Date: 11/26/2020
 
     The class defition of the recursiveExponentiation class,
     and its data members.
@@ -20,35 +20,44 @@
 #include <iostream>
 #include <string>
 
-class recursiveExponentiation {
- public:
+class recursiveExponentiation // beginning of class definition for recursiveExponentiation
+{
+public:
+    // constructor for class recursiveExponentiation
     recursiveExponentiation() {};
 
-  int doRecursiveExp(int raiseNumber, int raiseTo) {
-    baseNumber = raiseNumber;
-    power = raiseTo;
+    // member function to show recursive exponentiation that returns int
+    int doRecursiveExp(int raiseNumber, int raiseTo)
+    {
+      baseNumber = raiseNumber; // initialize baseNumber data member
+      power = raiseTo; // initialize power data member
 
-    if(raiseTo == 0) {
+      // if/else loop that prints an error message to cout if number is 0
+      // otherwise it prints the raiseNumber + * until i equals the raiseTo number
+      if(raiseTo == 0) {
         fprintf(stderr, "Please choose a number other than 0.\n");
         return 1;
-    } else {
-        for (int i = 1; i <= raiseTo; i++) {
-            if (i == raiseTo) {
+      } else {
+          for (int i = 1; i <= raiseTo; i++) {
+              if (i == raiseTo) {
                 std::cout << raiseNumber;
-            } else {
+              } else {
                 std::cout << raiseNumber << " * ";
-            }
-        }
-        std::cout << "\n";
-        std::cout << "=======================================================\n";
-    }
-    int result = (raiseNumber * pow(raiseNumber, raiseTo -1));
-    std::cout << "It Is Equal To: " << result;
+              }
+          }
+          std::cout << "\n";
+          std::cout << "=======================================================\n";
+      }
+
+      // after loop the result of the actual equation is stored in result, and
+      // printed in the form of It Is Equal to: result
+      int result = (raiseNumber * pow(raiseNumber, raiseTo -1));
+      std::cout << "It Is Equal To: " << result;
   }
 
  private:
-  int baseNumber;
-  int power;
+  int baseNumber{0};  // int base number initialized to 0
+  int power{0};  // int power number initialized to 0
 };
 
 #endif
