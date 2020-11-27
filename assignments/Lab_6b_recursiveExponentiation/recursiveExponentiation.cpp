@@ -11,10 +11,11 @@
     and its data members.
 */
 #include "recursiveExponentiation.h"
+#include <iostream>
+#include <iomanip>
 #include <math.h>
 #include <stddef.h>
 #include <stdio.h>
-#include <iostream>
 #include <string>
 
 using namespace std;

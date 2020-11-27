@@ -14,10 +14,11 @@
 #ifndef RECURSIVEEXPONENTIATION_H_
 #define RECURSIVEEXPONENTIATION_H_
 
+#include <iostream>
+#include <iomanip>
 #include <math.h>
 #include <stddef.h>
 #include <stdio.h>
-#include <iostream>
 #include <string>
 
 class recursiveExponentiation // beginning of class definition for recursiveExponentiation
@@ -51,8 +52,9 @@ public:
 
       // after loop the result of the actual equation is stored in result, and
       // printed in the form of It Is Equal to: result
-      int result = (raiseNumber * pow(raiseNumber, raiseTo -1));
-      std::cout << "It Is Equal To: " << result;
+      double result = pow(raiseNumber, raiseTo);
+      std::cout << std::setiosflags(std::ios::fixed | std::ios::showpoint) << std::setprecision(2)
+      << "It Is Equal To: " << result;
   }
 
  private:
