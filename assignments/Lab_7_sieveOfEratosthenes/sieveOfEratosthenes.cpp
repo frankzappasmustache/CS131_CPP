@@ -12,23 +12,20 @@
 */
 #include "sieveOfEratosthenes.h"
 
+#include <iostream>
 #include <stddef.h>
 #include <stdio.h>
-
 #include <array>
 #include <cmath>
 #include <iomanip>
 
 using namespace std;
 
-const size_t SIZE = 1000;
-
 int main() {
   sieveOfErastosthenes sOE;
+  const int arrSz{1000};
+  bool arrPrime[0];
 
-    array<int&, SIZE> primeArray;
-    int count = 0;
-
-  sOE.eratosthenes(*primeArray[0]);
+sOE.sieve(arrPrime[arrSz]);
   return 0;
 };
