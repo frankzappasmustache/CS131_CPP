@@ -12,20 +12,23 @@
 */
 #include "sieveOfEratosthenes.h"
 
-#include <iostream>
-#include <stddef.h>
-#include <stdio.h>
-#include <array>
+#include <algorithm>
 #include <cmath>
+#include <cstdio>
+#include <cstdlib>
+#include <cstring>
+#include <ctime>
 #include <iomanip>
+#include <iostream>
+#include <string>
+#include <vector>
 
 using namespace std;
 
-int main() {
-  sieveOfErastosthenes sOE;
-  const int arrSz{1000};
-  bool arrPrime[0];
-
-sOE.sieve(arrPrime[arrSz]);
-  return 0;
+int main()
+{
+    sieveOfErastosthenes sOE;
+    bool arrPrime[] = {};
+    sOE.sieve(arrPrime);
+    return 0;
 };

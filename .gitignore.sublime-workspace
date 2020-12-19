@@ -1,0 +1,390 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "Packages/MagicPython/settings/sublime/Python.sublime-build",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"p",
+				"Package Control: Install Package"
+			],
+			[
+				"py",
+				"PyYapf: Format Document"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"pretty",
+				"Pretty Print: Format (Pretty Print) Python code"
+			],
+			[
+				"stack",
+				"Search Stack Overflow for a build error"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"pac",
+				"Package Control: Disable Package"
+			],
+			[
+				"sublimerepl",
+				"SublimeLinter: Reload SublimeLinter and its Plugins"
+			],
+			[
+				"cach",
+				"requirements.txt: Clear Cache"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Enable Package"
+			],
+			[
+				"packag",
+				"Package Control: Install Local Dependency"
+			],
+			[
+				"python",
+				"Pretty Print: Format (Pretty Print) Python code"
+			],
+			[
+				"package",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 234.0,
+		"history":
+		[
+			"sublime()",
+			"sublime.clear",
+			"sublime.console(clear)",
+			"sublime",
+			"subl",
+			"console.clear()",
+			"clear()",
+			"clear",
+			"sublime.log_commands (True)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/frankzappasmustache/code/courses/IT121_Python/assignments/Final_Exam/final.py",
+		"/home/frankzappasmustache/code/courses/IT121_Python/assignments/Final_Exam/stockIndex.csv",
+		"/home/frankzappasmustache/code/courses/tests_examples/My-scripts/Kieran Python IT121 Lab FINAL EXAM File IO.py",
+		"/home/frankzappasmustache/code/courses/IT121_Python/assignments/Lab_8_Employee_Classes/resistance.py",
+		"/home/frankzappasmustache/code/courses/IT121_Python/assignments/Lab_8_Employee_Classes/jedi.py",
+		"/home/frankzappasmustache/code/courses/IT121_Python/assignments/Lab_8_Employee_Classes/firstOrder.py",
+		"/home/frankzappasmustache/code/courses/IT121_Python/assignments/Lab_8_Employee_Classes/employee.py",
+		"/home/frankzappasmustache/code/courses/IT121_Python/assignments/Lab_8_Employee_Classes/__pycache__/employee.cpython-39.pyc",
+		"/home/frankzappasmustache/Documents/fedora_33_upgrade_broken_packages.txt",
+		"/home/frankzappasmustache/code/courses/IT121_Python/assignments/Final_Exam/final.md",
+		"/home/frankzappasmustache/code/courses/IT121_Python/assignments/Lab_7_Functional_Shapes/functionalShapes.py",
+		"/home/frankzappasmustache/code/courses/tests_examples/My-scripts/Kieran Python IT121 Lab 7 Function Shape Drawer.py",
+		"/home/frankzappasmustache/code/courses/IT121_Python/assignments/Lab_8_Employee_Classes/spaceBalls.py",
+		"/home/frankzappasmustache/code/courses/tests_examples/My-scripts/Kieran Python IT121 Lab 8 Employee Classes.py",
+		"/home/frankzappasmustache/code/courses/IT121_Python/assignments/Lab_8_Employee_Classes/employeeClasses.md",
+		"/home/frankzappasmustache/code/courses/IT121_Python/assignments/Lab_7_Functional_Shapes/functionalShapes.md",
+		"/home/frankzappasmustache/code/courses/IT121_Python/assignments/Lab_6_Multiple_Shape_Sketcher/multipleShapeSketcher.py",
+		"/home/frankzappasmustache/code/courses/IT121_Python/assignments/Lab_5_Shape_Sketcher_AND_Tax_Calculator/shapeSketcher.py",
+		"/home/frankzappasmustache/code/courses/tests_examples/My-scripts/Kieran Python IT121 Lab 6a Multiple Shape Drawer.py",
+		"/home/frankzappasmustache/code/courses/IT121_Python/assignments/Lab_6_Multiple_Shape_Sketcher/multipleShapeSketcher.md",
+		"/home/frankzappasmustache/code/courses/IT121_Python/assignments/Midterm_Exam/midterm.py",
+		"/home/frankzappasmustache/code/courses/tests_examples/My-scripts/Kieran Python IT121 Lab MIDTERM EXAM Study Calculator.py",
+		"/home/frankzappasmustache/code/courses/IT121_Python/assignments/Lab_3a_usingStrings/fuckstrings.py",
+		"/home/frankzappasmustache/code/courses/IT121_Python/assignments/Midterm_Exam/midterm.md",
+		"/home/frankzappasmustache/code/courses/tests_examples/My-scripts/Kieran Python IT121 Lab 5 Shape Drawer & Tax Calculator.py",
+		"/home/frankzappasmustache/code/courses/IT121_Python/assignments/Lab_4_turtleInitials/turtleInitials.py",
+		"/home/frankzappasmustache/code/courses/IT121_Python/assignments/Lab_3b_Phone_Book_Look_up /phoneBookLookUp.py",
+		"/home/frankzappasmustache/.config/sublime-text-3/Packages/User/Pylinter.sublime-settings",
+		"/home/frankzappasmustache/.config/sublime-text-3/Packages/Pylinter/Pylinter.sublime-settings",
+		"/home/frankzappasmustache/code/courses/IT121_Python/assignments/Lab_5_Shape_Sketcher_AND_Tax_Calculator/taxCalculator.py",
+		"/home/frankzappasmustache/code/courses/IT121_Python/assignments/Lab_5_Shape_Sketcher_AND_Tax_Calculator/taxCalculator.md",
+		"/home/frankzappasmustache/code/courses/IT121_Python/assignments/Lab_5_Shape_Sketcher_AND_Tax_Calculator/shapeSketcher.md",
+		"/home/frankzappasmustache/code/courses/IT121_Python/IT121_laptop.sublime-project",
+		"/home/frankzappasmustache/.bashrc",
+		"/etc/pulse/default.pa",
+		"/etc/pulse/system.pa",
+		"/etc/pulse/daemon.conf",
+		"/etc/pulse/client.conf",
+		"/home/frankzappasmustache/code/courses/IT121_Python/assignments/Lab_4_turtleInitials/turtleInitials.md",
+		"/home/frankzappasmustache/code/courses/IT121_Python/assignments/Lab_3a_usingStrings/usingStrings.md",
+		"/home/frankzappasmustache/code/snippets2.py",
+		"/home/frankzappasmustache/code/snippets1.py",
+		"/home/frankzappasmustache/code/phoneBookLookUp1.py",
+		"/home/frankzappasmustache/code/phoneBookLookUp1_backup.py",
+		"/home/frankzappasmustache/code/phoneBookLookUp_reference.py",
+		"/home/frankzappasmustache/code/pblookup.py",
+		"/home/frankzappasmustache/code/courses/IT121_Python/phoneBookLookUp1.py",
+		"/home/frankzappasmustache/code/test.py",
+		"/home/frankzappasmustache/code/courses/IT121_Python/assignments/Lab_3b_Phone_Book_Look_up /phoneBookLookUp.md",
+		"/home/frankzappasmustache/code/foaas-python/foaas.py",
+		"/home/frankzappasmustache/code/courses/IT121_Python/assignments/Lab_1_helloWorld/helloWorld.py",
+		"/home/frankzappasmustache/code/courses/IT121_Python/assignments/Lab_3a_usingStrings/successful_fucking_build.png",
+		"/home/frankzappasmustache/code/courses/IT121_Python/assignments/Lab_3a_usingStrings/string_along.py",
+		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/arithmetic/arithmetic.cpp",
+		"/home/frankzappasmustache/code/courses/IT121_Python/assignments/Lab_2_multiplier/multiplier.py",
+		"/home/frankzappasmustache/code/string_along_backup.py",
+		"/home/frankzappasmustache/.config/sublime-text-3/Packages/User/Anaconda.sublime-settings",
+		"/home/frankzappasmustache/.config/sublime-text-3/Packages/Anaconda/Anaconda.sublime-settings",
+		"/home/frankzappasmustache/.config/sublime-text-3/Packages/User/Python.sublime-settings",
+		"/home/frankzappasmustache/.config/sublime-text-3/Packages/User/SublimeREPL.sublime-settings",
+		"/home/frankzappasmustache/.config/sublime-text-3/Packages/User/sublime_jedi.sublime-settings",
+		"/home/frankzappasmustache/code/courses/IT121_Python/IT121.sublime-workspace",
+		"/home/frankzappasmustache/code/courses/IT121_Python/assignments/Lab_3a_usingStrings/stringAlong.py",
+		"/home/frankzappasmustache/code/courses/IT121_Python/assignments/multiplier/multiplier.md",
+		"/home/frankzappasmustache/code/courses/IT121_Python/assignments/multiplier/multiplier.py",
+		"/home/frankzappasmustache/code/courses/IT121_Python/assignments/helloWorld/helloWorld.md",
+		"/home/frankzappasmustache/code/school/python/hello.py",
+		"/home/frankzappasmustache/Documents/Courses/CS 131 - Introduction to Computer Science C++/canvas_biography.txt",
+		"/home/frankzappasmustache/.config/sublime-text-3/Packages/User/Package Control.sublime-settings",
+		"/home/frankzappasmustache/.config/sublime-text-3/Packages/Package Control/Package Control.sublime-settings",
+		"/home/frankzappasmustache/.config/sublime-text-3/Packages/User/SublimeLinter.sublime-settings",
+		"/home/frankzappasmustache/.config/sublime-text-3/Packages/pyyaml/st3/yaml/__init__.py",
+		"/home/frankzappasmustache/.config/sublime-text-3/Packages/sublime_lib/.flake8",
+		"/home/frankzappasmustache/.config/sublime-text-3/Packages/Pylinter/pylinter.py",
+		"/home/frankzappasmustache/pylint.rc",
+		"/run/media/frankzappasmustache/21807644-010e-4d09-a038-50d24f15673d/debian_backup/pubring.kbx",
+		"/run/media/frankzappasmustache/21807644-010e-4d09-a038-50d24f15673d/debian_backup/.Xdefaults",
+		"/run/media/frankzappasmustache/21807644-010e-4d09-a038-50d24f15673d/debian_backup/.profile",
+		"/run/media/frankzappasmustache/21807644-010e-4d09-a038-50d24f15673d/debian_backup/.lessfilter",
+		"/home/frankzappasmustache/.imwheelrc",
+		"/home/frankzappasmustache/.lessfilter",
+		"/run/media/frankzappasmustache/21807644-010e-4d09-a038-50d24f15673d/debian_backup/.netrc",
+		"/run/media/frankzappasmustache/21807644-010e-4d09-a038-50d24f15673d/debian_backup/.gitconfig",
+		"/run/media/frankzappasmustache/21807644-010e-4d09-a038-50d24f15673d/debian_backup/.dmrc",
+		"/home/frankzappasmustache/.bash_profile",
+		"/home/frankzappasmustache/.gtkrc-2.0",
+		"/run/media/frankzappasmustache/21807644-010e-4d09-a038-50d24f15673d/debian_backup/.bashrc",
+		"/home/frankzappasmustache/.dircolors"
+	],
+	"find":
+	{
+		"height": 52.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"marker",
+			"39",
+			"(\\d{1,2}):",
+			"(\\d{1,2})(\\:\\s)'#",
+			"(\\d)(\\:\\s)'",
+			"(\\d)(\\:\\s)'#",
+			"(\\d{1,2}:\\s'#.{6}',\\s)\\n",
+			"\\s:\\s",
+			"\\n\\n",
+			"'(\\w+)':\\s'#.{6}',",
+			"(',\\s)",
+			"'\\w+':",
+			"'(\\d+)'",
+			"\\s\\n",
+			"'.*':\\s",
+			"fill,",
+			"pen_c",
+			"fill_color",
+			"pen_color",
+			"'",
+			"'.*':",
+			"',\\s\\n",
+			"',\\s",
+			"',\\s\\n",
+			"',\\s",
+			"(:\\s)(#.{6})",
+			"(\\w+)\\s'(#.{6})'\\n",
+			"(\\w+)\\s('#.{6}')\\n",
+			"('#.{6}')",
+			"\\s(\\n)",
+			"\\s",
+			"(\\w)\\s",
+			"(\\w+)\\s",
+			"gb.(\\w+)\\s+=\\s\\[('#.{6}')",
+			"gb.\\w+\\s+=\\s\\['#.{6}'",
+			"turtle",
+			"initials",
+			"'"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"\\1.",
+			"'\\1'\\2'",
+			"'\\1'\\2'#",
+			"\\1",
+			": \n",
+			"\n",
+			": \\1\\n\n",
+			"\\1\n",
+			":",
+			"\\1",
+			"'\\1'",
+			" ",
+			"'': ",
+			"fill_color,",
+			"pen_color",
+			"fill",
+			"pen_c",
+			"",
+			"', ",
+			"', \n",
+			"', ",
+			"', \n",
+			"\\1'\\2'",
+			"'\\1': \\2, ",
+			"colors = {'\\1': \\2, }",
+			"\\1",
+			"",
+			"\\1",
+			"\\1 \\2",
+			"t",
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": false
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 29.0
+	},
+	"input":
+	{
+		"height": 51.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.SublimeLinter":
+	{
+		"height": 130.0
+	},
+	"output.diagnostics":
+	{
+		"height": 130.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/SublimeREPL/sublimerepl_build_system_hack.sublime-build",
+	"project": ".gitignore.sublime-project",
+	"replace":
+	{
+		"height": 92.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 546.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

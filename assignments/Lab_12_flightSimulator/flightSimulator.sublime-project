@@ -1,0 +1,75 @@
+{
+	"folders":
+	   [
+        {
+            "file_exclude_patterns":
+            [
+                "*.vcproj",
+                "*.vcxproj",
+                "*.sln",
+                "*.gitignore",
+                "*.gitmodules",
+                "*.vcxproj.*"
+            ],
+            "folder_exclude_patterns":
+            [
+                "build",
+                "out",
+                "third_party",
+                ".git"
+            ],
+            "name": "Flight Simulator",
+			"path": "/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_11_flightSimulator"
+        },
+        {
+            "name": "Examples 13.6-8",
+			"path": "/home/frankzappasmustache/code/courses/tests_examples/Deitel_Cplusplus_Practice/Textbook Examples/Section 13.6 -13.8"
+		}
+	],
+    "settings":
+    {
+        "debug.configurations":
+        [
+            {
+                "args":
+                [
+                ],
+                "cwd": "${file_path}",
+                "name": "Launch (Compile)",
+                "program": "${file}",
+                "request": "launch",
+                "sublime_build":
+                {
+                    "cmd": [
+                        "clang++ -std=c++14",
+                        "-g",
+                        "${file}"
+                    ],
+                    "shell": true
+                },
+                "type": "lldb"
+            },
+            {
+                "args":
+                [
+                ],
+                "cwd": "${file_path}",
+                "name": "Launch (external)",
+                "program": "${file}",
+                "request": "launch",
+                "terminal": "external",
+                "type": "lldb"
+            },
+            {
+                "args":
+                [
+                ],
+                "cwd": "${file_path}",
+                "name": "Launch",
+                "program": "${file}",
+                "request": "launch",
+                "type": "lldb"
+            }
+        ]
+    }
+}

@@ -1,0 +1,100 @@
+{
+	"build_systems":
+	[
+		{
+			"file_regex": "^[ ]*File \"(...*?)\", line ([0-9]*)",
+			"name": "Anaconda Python Builder",
+			"selector": "source.python",
+			"shell_cmd": "\"python\" -u \"$file\""
+		}
+	],
+	"folders":
+	[
+		{
+			"file_exclude_patterns":
+			[
+				"*.vcproj",
+				"*.vcxproj",
+				"*.sln",
+				"*.gitignore",
+				"*.gitmodules",
+				"*.vcxproj.*"
+			],
+			"folder_exclude_patterns":
+			[
+				"build",
+				"out",
+				"third_party",
+				".git"
+			],
+			"name": "Eratosthenes",
+			"path": "/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_7_sieveOfEratosthenes"
+		},
+		{
+			"name": "DS Algorythms",
+			"path": "/home/frankzappasmustache/code/courses/tests_examples/DS-Algo"
+		},
+		{
+			"name": "Examples Chapter 3 Sedgewick",
+			"path": "/home/frankzappasmustache/code/courses/tests_examples/playground/cpp-lang/algo/sedgewick/ch03"
+		},
+		{
+			"name": "Excercises 7.29",
+			"path": "/home/frankzappasmustache/code/courses/tests_examples/Deitel_Cplusplus_Practice/Chapter 07 Exercises/Ex 7.29"
+		},
+		{
+			"name": "Generated Files",
+			"path": "src/out/Debug/gen"
+		},
+		{
+			"name": "Test & Examples",
+			"path": "/home/frankzappasmustache/code/courses/tests_examples"
+		}
+	],
+	"settings":
+	{
+		"debug.configurations":
+		[
+			{
+				"args":
+				[
+				],
+				"cwd": "${file_path}",
+				"name": "Launch (Compile)",
+				"program": "${file}",
+				"request": "launch",
+				"sublime_build":
+				{
+					"cmd": [
+						"clang++ -std=c++14",
+						"-g",
+						"${file}"
+					],
+					"shell": true
+				},
+				"type": "lldb"
+			},
+			{
+				"args":
+				[
+				],
+				"cwd": "${file_path}",
+				"name": "Launch (external)",
+				"program": "${file}",
+				"request": "launch",
+				"terminal": "external",
+				"type": "lldb"
+			},
+			{
+				"args":
+				[
+				],
+				"cwd": "${file_path}",
+				"name": "Launch",
+				"program": "${file}",
+				"request": "launch",
+				"type": "lldb"
+			}
+		]
+	},
+}

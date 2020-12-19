@@ -104,12 +104,12 @@
 		"selected_items":
 		[
 			[
-				"pack",
-				"Package Control: Install Package"
-			],
-			[
 				"pac",
 				"Package Control: Disable Package"
+			],
+			[
+				"pack",
+				"Package Control: List Packages"
 			],
 			[
 				"packa",
@@ -199,24 +199,24 @@
 	},
 	"expanded_folders":
 	[
-		"/home/frankzappasmustache/code/courses/tests_examples"
+		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Final"
 	],
 	"file_history":
 	[
-		"/home/frankzappasmustache/code/courses/CS131_CPP/test1.cpp",
-		"/home/frankzappasmustache/Documents/Courses/CS 131 - Introduction to Computer Science C++/deitel_cpp10_sourcecode/ch11/fig11_07_09/BasePlusCommissionEmployee.h",
-		"/home/frankzappasmustache/Documents/Courses/CS 131 - Introduction to Computer Science C++/deitel_cpp10_sourcecode/ch11/fig11_04_06/CommissionEmployee.h",
-		"/home/frankzappasmustache/code/courses/tests_examples/ExercisesCppHowToProgram9thEd/account/Account.h",
-		"/home/frankzappasmustache/code/courses/tests_examples/ExercisesCppHowToProgram9thEd/account/Account.cpp",
-		"/home/frankzappasmustache/code/courses/tests_examples/ExercisesCppHowToProgram9thEd/account/targetver.h",
-		"/home/frankzappasmustache/Documents/Courses/CS 131 - Introduction to Computer Science C++/Code_Examples/ch07/fig07_07/fig07_07.cpp",
-		"/home/frankzappasmustache/code/courses/tests_examples/Deitel/Chapter_05/examples/5.02/src/main.cpp",
-		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Final/oddSum.cpp",
-		"/home/frankzappasmustache/code/courses/CS131_CPP/CS131_CPP_laptop.sublime-project",
-		"/home/frankzappasmustache/.config/sublime-text-3/Packages/User/SublimeGDB.sublime-settings",
-		"/home/frankzappasmustache/.config/sublime-text-3/Packages/SublimeGDB/SublimeGDB.sublime-settings",
+		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_11_flightSimulator/flightSimulator.md",
+		"/home/frankzappasmustache/code/courses/tests_examples/playground/cpp-lang/primer/ch15/solutions/inheritance/main.cpp",
+		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_10_Account_Inheritance/accountInheritance.md",
 		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_7_sieveOfEratosthenes/sieveOfEratosthenes.h",
 		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_7_sieveOfEratosthenes/sieveOfEratosthenes.cpp",
+		"/home/frankzappasmustache/code/courses/tests_examples/Deitel_Cplusplus_Practice/Chapter 07 Exercises/Ex 7.29/main.cpp",
+		"/home/frankzappasmustache/code/courses/tests_examples/Deitel_Cplusplus_Practice/Chapter 07 Exercises/Ex 7.29/TheSieveofEratosthenes.cpp",
+		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_6a_parkingCharges/parkingCharges.h",
+		"/home/frankzappasmustache/code/courses/tests_examples/playground/cpp-lang/algo/sedgewick/ch03/exr_3_13/eratosthenessieve.h",
+		"/home/frankzappasmustache/code/courses/tests_examples/playground/cpp-lang/algo/sedgewick/ch03/exr_3_13/eratosthenessieve.cpp",
+		"/home/frankzappasmustache/code/courses/tests_examples/Deitel_Cplusplus_Practice/Chapter 07 Exercises/Ex 7.29/TheSieveofEratosthenes.hpp",
+		"/home/frankzappasmustache/.xbindkeysrc",
+		"/home/frankzappasmustache/.xbindkeysrc:",
+		"/home/frankzappasmustache/code/courses/sieveOfEratosthenes_backup.cpp",
 		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_8_tortiseAndHare/tortiseAndHare.cpp",
 		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_8_tortiseAndHare/tortiseAndHare.md",
 		"/home/frankzappasmustache/code/courses/tests_examples/Deitel_Cplusplus_Practice/Chapter 08 Exercises/Ex 8.12/TortoiseAndHare.cpp",
@@ -226,13 +226,11 @@
 		"/home/frankzappasmustache/code/courses/tests_examples/Deitel_Cplusplus_Practice/Chapter 09 Exercises/Ex 9.6/RationalClass.cpp",
 		"/home/frankzappasmustache/code/courses/tests_examples/Deitel_Cplusplus_Practice/Chapter 08 Exercises/Ex 8.12/main.cpp",
 		"/home/frankzappasmustache/code/courses/tests_examples/Deitel_Cplusplus_Practice/Chapter 08 Exercises/Ex 8.12/TortoiseAndHare.hpp",
-		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_10_Account_Inheritance/accountInheritance.md",
 		"/home/frankzappasmustache/code/courses/tests_examples/My-scripts/Kieran C++ CS131 Lab 08 - Sorting with Arrays.cpp",
 		"/home/frankzappasmustache/code/courses/test1.cpp",
 		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_6b_recursiveExponentiation/recursiveExponentiation.h",
 		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_6b_recursiveExponentiation/recursiveExponentiation.cpp",
 		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_6a_parkingCharges/parkingCharges.cpp",
-		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_6a_parkingCharges/parkingCharges.h",
 		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_5a_smallestValue/avgOfIntegers.h",
 		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_5a_smallestValue/avgOfIntegers.cpp",
 		"/home/frankzappasmustache/code/courses/tests_examples/Deitel/Chapter_07/exercises/7.27/src/main.cpp",
@@ -252,6 +250,7 @@
 		"/home/frankzappasmustache/code/courses/tests_examples/Deitel_Cplusplus_Practice/Chapter 06 Exercises/Ex 6.36/RecursiveExponentiation.hpp",
 		"/home/frankzappasmustache/code/courses/tests_examples/Deitel/Chapter_06/exercises/6.36/src/main.cpp",
 		"/home/frankzappasmustache/.config/sublime-text-3/Packages/User/CppBuilder.sublime-settings",
+		"/home/frankzappasmustache/code/courses/CS131_CPP/CS131_CPP_laptop.sublime-project",
 		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_3a_heartRate/HeartRates.h",
 		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_3a_heartRate/HeartRates.cpp",
 		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_5b_PeterMinuitProblem/peterMinuit.cpp",
@@ -330,7 +329,8 @@
 		"/home/frankzappasmustache/code/courses/tests_examples/My-scripts/Kieran C++ CS132 Lab 04.3 - Classes III.cpp",
 		"/home/frankzappasmustache/code/courses/tests_examples/My-scripts/Kieran C++ CS132 Lab 04.2 - Classes III.cpp",
 		"/home/frankzappasmustache/code/courses/tests_examples/My-scripts/Kieran C++ CS132 Lab 04.1 - Classes III.cpp",
-		"/home/frankzappasmustache/code/courses/tests_examples/My-scripts/Kieran C++ CS132 Lab 03.2 - Classes Continued.cpp"
+		"/home/frankzappasmustache/code/courses/tests_examples/My-scripts/Kieran C++ CS132 Lab 03.2 - Classes Continued.cpp",
+		"/home/frankzappasmustache/code/courses/tests_examples/My-scripts/Kieran C++ CS132 Lab 03.1 - Classes Continued.cpp"
 	],
 	"find":
 	{
@@ -341,7 +341,6 @@
 		"height": 146.0,
 		"where_history":
 		[
-			"/home/frankzappasmustache/code/courses/tests_examples/",
 			"/home/frankzappasmustache/code/courses/tests_examples"
 		]
 	},
@@ -350,9 +349,10 @@
 		"case_sensitive": false,
 		"find_history":
 		[
-			"toBal",
-			"call by reference",
-			"transfer()",
+			"arrSize",
+			"temp",
+			"location",
+			"HelloPrime",
 			"hare",
 			"Eratosthenes",
 			"hare",
@@ -407,9 +407,13 @@
 		"highlight": true,
 		"in_selection": false,
 		"preserve_case": false,
-		"regex": false,
+		"regex": true,
 		"replace_history":
 		[
+			"arraySize",
+			"numtemp",
+			"progress",
+			"primeArray",
 			" &&",
 			" && (",
 			"          cin.ignore(average);\n        continue;",
@@ -452,16 +456,11 @@
 		"reverse": false,
 		"show_context": true,
 		"use_buffer2": true,
-		"whole_word": false,
+		"whole_word": true,
 		"wrap": false
 	},
 	"groups":
 	[
-		{
-			"sheets":
-			[
-			]
-		},
 		{
 			"sheets":
 			[
@@ -485,18 +484,11 @@
 				0,
 				1,
 				1
-			],
-			[
-				1,
-				0,
-				2,
-				1
 			]
 		],
 		"cols":
 		[
 			0.0,
-			0.531488156168,
 			1.0
 		],
 		"rows":
@@ -551,7 +543,7 @@
 		"height": 0.0
 	},
 	"pinned_build_system": "Packages/C++ & C Single File Builder - Minghang Yang/C++ Builder-Minghang Yang.sublime-build",
-	"project": "CS131_CPP_laptop.sublime-project",
+	"project": "final.sublime-project",
 	"replace":
 	{
 		"height": 92.0
@@ -584,7 +576,7 @@
 		],
 		"width": 0.0
 	},
-	"selected_group": 1,
+	"selected_group": 0,
 	"settings":
 	{
 	},
@@ -592,7 +584,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 558.0,
+	"side_bar_width": 264.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
